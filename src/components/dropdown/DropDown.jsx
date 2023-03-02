@@ -14,8 +14,12 @@ const MyDropdown = () => {
       <DropdownMenu>
         {/* <DropdownItem header>Header</DropdownItem> */}
         <DropdownItem></DropdownItem>
-        <DropdownItem>Option 2</DropdownItem>
-        <DropdownItem>Reset</DropdownItem>
+        <DropdownItem>Reino Animal</DropdownItem>
+        <DropdownItem>Reino vegetal</DropdownItem>
+        <DropdownItem>Minerales</DropdownItem>
+        <DropdownItem>Oceano</DropdownItem>
+        <DropdownItem>Contacto</DropdownItem>
+        <DropdownItem>Informacion institucional</DropdownItem>
       </DropdownMenu>
     </Dropdown>
   );

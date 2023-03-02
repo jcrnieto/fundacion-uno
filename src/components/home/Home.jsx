@@ -1,5 +1,4 @@
 import fotoHome from '../../image/imagen1.avif';
-//import './home.css';
 import { Container, Row, Col } from 'reactstrap';
 
 
@@ -8,7 +7,7 @@ const Home = () => {
        
      <Container>
         <Row>
-          <Col>
+          <Col xs={12} sm={12} lg={12}>
             <img src={fotoHome} alt="Mi imagen" className="img-fluid" />
           </Col>
        </Row>
