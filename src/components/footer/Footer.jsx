@@ -10,16 +10,16 @@ import { GrLocation } from "react-icons/gr"
 function Footer() {
   return (
     
-    <Navbar color="secondary" light  >
+    <Navbar color="secondary" light style={{ marginTop: 'auto' }} >
         <div className='container-fluid'>
       <Container>
         <Row>
-          <Col>
-          <Link to='/' className="col-12 col-md-3 d-flex alings-items-center justify-content-center">
+          <Col xs={12} sm={6} lg={3}>
+          <Link to='/'>
              <img src={logo} className='mx-2' width='100'/>
           </ Link>
           </Col>
-          <Col>
+          <Col xs={12} sm={6} lg={3}>
           <ul className='col-12 col-md-3 list-unstyled'>
              <li className='font-weight-bold '>CATEGORIAS</li>
              <li><Link to='/' className='text-white text-decoration-none'>Inicio</Link></li>
@@ -28,7 +28,7 @@ function Footer() {
              <li><Link  to='/Contacto' className='text-white text-decoration-none'>Contacto</Link></li>
           </ul>
           </Col>
-          <Col>
+          <Col xs={12} sm={6} lg={3}>
           <ul className='col-12 col-md-3 list-unstyled'>
              <li className='font-weight-bold'>CONTACTANOS</li>
              <li>
@@ -42,7 +42,7 @@ function Footer() {
             </li>
           </ul>
           </Col>
-          <Col>
+          <Col xs={12} sm={6} lg={3}>
           <ul className='col-12 col-md-3 list-unstyled'>
             <li className='font-weight-bold '>SIGUENOS</li>
                 <li className='d-flex justify-content-center'>
