@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
-import * as Scroll from 'react-scroll';
-import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+
+import { Link, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 
 const MyDropdown = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);

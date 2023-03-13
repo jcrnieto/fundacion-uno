@@ -1,7 +1,6 @@
 import { Container, Row, Col, Navbar } from 'reactstrap';
 import logo from "../../image/logo-fundacion-uno.jpeg";
 import {Link} from 'react-router-dom';
-import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
@@ -17,7 +16,7 @@ function Footer() {
         <Row>
           <Col xs={12} sm={6} lg={3}>
           <Link to='/'>
-             <img src={logo} className='mx-2' width='100'/>
+             <img src={logo} alt='' className='mx-2' width='100'/>
           </ Link>
           </Col>
           <Col xs={12} sm={6} lg={3}>
