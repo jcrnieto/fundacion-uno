@@ -1,9 +1,17 @@
 import { Container, Row, Col } from 'reactstrap';
-import ReactPlayer from 'react-player'
+import ReactPlayer from 'react-player';
+import Aos from 'aos';
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 
 const AboutMe = () => {
+    useEffect(()=>{
+        Aos.init({duration:2000})
+     },[])
     return(
-         <Container style={{ marginTop: '70px' }}>
+         <Container  data-aos="fade-up"
+                    data-aos-duration="3000" 
+                    style={{ marginTop: '70px' }}>
             <Row >
                 <Col xs={12} sm={6} lg={6}>
                 <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U'
