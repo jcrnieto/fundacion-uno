@@ -1,12 +1,12 @@
-import { Container, Row, Col, Navbar } from 'reactstrap';
-import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
+import { Row, Col } from 'reactstrap';
+import { Container, Button, Form, FormGroup, Label, Input} from 'reactstrap';
 import { FaWhatsapp } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { GrLocation } from "react-icons/gr";
 
 const Forms = () => {
    return(
-      <Container style={{marginTop:15, height: '100 vp'}}>
+      <Container style={{ marginTop: '70px', marginBottom:'30px' }} id='Contacto' >
         <Row>
          <Col xs={12} sm={6} lg={3}>
            <h1>Contacto</h1>
@@ -15,7 +15,7 @@ const Forms = () => {
              <a className='link-secondary text-decoration-none d-flex mt-3' href="https://github.com/jcrnieto" target="_blank" rel="noreferrer"><i className="mx-2"><FaWhatsapp/></i>5493516468746</a>
              </li>
              <li>
-             <a className='link-secondary text-decoration-none d-flex mt-3' href="https://github.com/jcrnieto" target="_blank" rel="noreferrer"><i className="mx-2"><SiGmail/></i> placeress.sintacc@gmail.com</a>
+             <a className='link-secondary text-decoration-none d-flex mt-3' href="https://github.com/jcrnieto" target="_blank" rel="noreferrer"><i className="mx-2"><SiGmail/></i> jcrnietos@gmail.com</a>
              </li>
              <li>
              <a className='link-secondary text-decoration-none d-flex mt-3' href="https://github.com/jcrnieto" target="_blank" rel="noreferrer"><i className="mx-2"><GrLocation/></i> Córdoba Capital</a>

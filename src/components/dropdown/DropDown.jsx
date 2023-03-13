@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
+import * as Scroll from 'react-scroll';
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 
 const MyDropdown = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -18,7 +20,11 @@ const MyDropdown = () => {
         <DropdownItem>Reino vegetal</DropdownItem>
         <DropdownItem>Minerales</DropdownItem>
         <DropdownItem>Oceano</DropdownItem>
-        <DropdownItem>Contacto</DropdownItem>
+        <DropdownItem>
+        <Link activeClass="active" to="Contacto" spy={true} smooth={true} offset={50} duration={500} >
+          Contacto
+        </Link>
+        </DropdownItem>
         <DropdownItem>Informacion institucional</DropdownItem>
       </DropdownMenu>
     </Dropdown>

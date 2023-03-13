@@ -3,7 +3,7 @@ import ReactPlayer from 'react-player'
 
 const AboutMe = () => {
     return(
-        <Container>
+         <Container style={{ marginTop: '70px' }}>
             <Row >
                 <Col xs={12} sm={6} lg={6}>
                 <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U'
@@ -21,7 +21,7 @@ const AboutMe = () => {
                  saludable y próspera, y estamos comprometidos en hacer todo lo posible para hacer realidad esa visión</p>
                 </Col>
             </Row>
-        </Container>
+         </Container>
     )
 }
 
