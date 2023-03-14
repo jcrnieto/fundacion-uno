@@ -1,9 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem, UncontrolledDropdown } from 'reactstrap';
 
 
 
 const MyDropdown = () => {
+ 
  
    const [dropdownOpen, setDropdownOpen] = useState(false);
 
@@ -13,7 +14,7 @@ const MyDropdown = () => {
    
      <Dropdown isOpen={dropdownOpen} toggle={toggle}>
    
-      <DropdownToggle >
+      <DropdownToggle style={{ border: 'none', boxShadow: 'none', backgroundColor: 'transparent', color:'black' }}>
         Inicio
       </DropdownToggle>
      
