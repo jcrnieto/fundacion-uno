@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem, UncontrolledDropdown } from 'reactstrap';
+import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 
 
 
@@ -25,8 +25,6 @@ const MyDropdown = () => {
         <DropdownItem>Reino vegetal</DropdownItem>
         <DropdownItem>Minerales</DropdownItem>
         <DropdownItem>Oceano</DropdownItem>
-        <DropdownItem>
-        </DropdownItem>
         <DropdownItem>Informacion institucional</DropdownItem>
       </DropdownMenu>
       
