@@ -24,18 +24,18 @@ const NavBar = (args) => {
     <div>
       <Navbar {...args} >
          <NavLink  href="/"><img src={logo} alt='' className='mx-2' width='100'/></NavLink>
-         <NavbarToggler  onClick={toggle} className='navbar-toggler' navbar/>
+         <NavbarToggler  onClick={toggle} className='navbar-toggler' navbar />
         <Collapse isOpen={isOpen} navbar>
-        <Offcanvas isOpen={isOpen} className='offcanvas offcanvas-bottom' toggle={toggle} size="xs" placement="end" backdrop="static">
+        <Offcanvas  isOpen={isOpen} className='offcanvas offcanvas-top' toggle={toggle} size="lg" placement="end" backdrop="static">
         <OffcanvasHeader toggle={toggle}>
            Menú
         </OffcanvasHeader>
-        <OffcanvasBody>
+        <OffcanvasBody style={{backgroundColor:'#c2ebc9'}}>
           <Nav className="ml-auto" navbar style={{marginLeft: 'auto'}}>
             <NavItem>
               <NavLink href="/quienesSomos/">Quienes Somos</NavLink>
             </NavItem>
-            <NavItem toggle={toggle}>
+            <NavItem >
             <Link  activeClass="active" to="Contacto" spy={true} smooth={true} offset={50} duration={500} >
                Contacto
             </Link>
