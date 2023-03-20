@@ -11,3 +11,7 @@
         display: block;
     }
 }
+
+.offcanvas{
+    height: 350px;
+}

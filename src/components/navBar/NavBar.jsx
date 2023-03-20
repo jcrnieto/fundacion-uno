@@ -26,7 +26,7 @@ const NavBar = (args) => {
          <NavLink  href="/"><img src={logo} alt='' className='mx-2' width='100'/></NavLink>
          <NavbarToggler  onClick={toggle} className='navbar-toggler' navbar />
         <Collapse isOpen={isOpen} navbar>
-        <Offcanvas  isOpen={isOpen} className='offcanvas offcanvas-top' toggle={toggle} size="lg" placement="end" backdrop="static">
+        <Offcanvas  isOpen={isOpen} className='offcanvas' toggle={toggle} size="lg" placement="end" backdrop="static">
         <OffcanvasHeader toggle={toggle}>
            Menú
         </OffcanvasHeader>
