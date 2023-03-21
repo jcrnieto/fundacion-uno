@@ -31,13 +31,13 @@ function Footer() {
           <ul className='col-12 col-md-3 list-unstyled'>
              <li className='font-weight-bold'>CONTACTANOS</li>
              <li>
-               <a className='text-white text-decoration-none d-flex' href="https://wa.me/+543516468746" target="_blank" rel="noreferrer"><i className="mx-1"><FaWhatsapp/></i>5493516468746</a>
+               <a className='text-white text-decoration-none' href="https://wa.me/+543516468746" target="_blank" rel="noreferrer"><i className="mx-1"><FaWhatsapp/></i>5493516468746</a>
              </li>
              <li>
-              <a className='text-white text-decoration-none d-flex' href="" target="_blank" rel="noreferrer"><i className="mx-1"><SiGmail/></i> jcrnietoa@gmail.com</a>
+              <a className='text-white text-decoration-none' href="" target="_blank" rel="noreferrer"><i className="mx-1"><SiGmail/></i> jcrnietoa@gmail.com</a>
              </li>
              <li>
-              <a className='text-white text-decoration-none d-flex' href="" target="_blank" rel="noreferrer"><i className="mx-1"><GrLocation/></i> Córdoba Capital</a>
+              <a className='text-white text-decoration-none' href="" target="_blank" rel="noreferrer"><i className="mx-1"><GrLocation/></i> Córdoba Capital</a>
             </li>
           </ul>
           </Col>
