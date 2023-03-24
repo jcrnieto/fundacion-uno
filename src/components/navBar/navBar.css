@@ -1,4 +1,4 @@
-.navbar-toggler{
+ /* .navbar-toggler{
     border: none !important;
 }
 
@@ -14,4 +14,111 @@
 
 .offcanvas{
     height: 350px;
+}  */
+
+
+
+  *{
+padding: 0;
+margin:0;
+box-sizing: border-box;
 }
+
+.navbar {
+    display:flex;
+    align-items: center;
+    justify-content:space-between; 
+    height: 120px;
+    padding: 0 2rem;
+    background-color: #75c780;
+    color: #eee;
+    position: relative;
+    z-index: 1000;
+}
+
+.log {
+    width: 80px;
+    margin-left: 40px;
+}
+
+ .nav-links {
+   display: flex;
+   justify-content: flex-end;
+   list-style: none;
+   width: 75%;
+   z-index: 1001; 
+}
+
+ .nav :hover{
+    color:black;
+} 
+
+.mobile-menu-icon{
+    display: none;
+}
+
+ .quienes-somos,
+.contacto,
+.inicio{
+    text-decoration: none;
+    color:#eee;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+} 
+
+ @media screen and (max-width: 780px){
+    /* .logo{
+        display: flex;
+        position: absolute;
+        top: 15px;
+        left: 35px;
+    } */
+
+   
+    .nav-links{
+        display: none;
+    } 
+
+     .nav-links-mobile {
+        position: absolute;
+        display: block;
+        list-style: none;
+        background-color: #75c780;
+        left: 0;
+        top: 75px;
+        transition: all 0.5s ease-out;
+        width: 100%;
+        position: static;
+        z-index: auto;
+    }
+
+    .quienes-somos,
+    .inicio,
+    .contacto {
+        color: white;
+        text-align: center;
+        padding: 32px;
+        width: 100%;
+        transition: all 0.5s ease;
+    }
+
+    .mobile-menu-icon{
+        display: block;
+        position: absolute;
+        font-size: 30px;
+        color: white;
+        background-color: #75c780;
+        border: none;
+        outline: none;
+        top: 15px;
+        right: 25px;
+        z-index: 999;
+     } 
+
+    .fas-times {
+        background-color: #75c780;
+    }
+}   
+

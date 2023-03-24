@@ -22,7 +22,7 @@ const Carousel = () => {
       };
 
     return(
-        <div>
+        <div style={{zIndex:'1'}} >
          <Slider {...settings}>
          <div>
           <img src={arbol} alt="" style={{width: "100%", height:"100vp"}}/>
