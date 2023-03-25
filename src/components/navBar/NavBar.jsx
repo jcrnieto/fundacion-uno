@@ -2,6 +2,7 @@
  import { NavLink } from 'react-router-dom';
  import { Link, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
  import './navBar.css';
+ //import {FaAngleDown} from 'react-icons/fa'
 // import React, { useState } from 'react';
 // import {
 //   Collapse,
@@ -66,9 +67,11 @@
 
 
 import { useState } from 'react';
+//import  Dropdown  from '../dropdown/DropDown';
 
 const Navbar = () => {
    const [isMobile, setIsmobile] = useState(false);
+   const [openToggler, setOpenToggler ] = useState(false);
   
  return(
     <nav className='navbar'>
@@ -78,13 +81,14 @@ const Navbar = () => {
       
         <ul className={ isMobile? "nav-links-mobile" : "nav-links"}
          onClick={()=> setIsmobile(false)}>
-          <NavLink to='/quienesSomos'>
-          <li className=' nav quienes-somos'>Quienes Somos</li>
+          <NavLink to='/quienesSomos' className='link-quienes-somos'>
+          <li className='  quienes-somos'>Quienes Somos</li>
           </NavLink>
           <Link  activeClass="active" to="Contacto" spy={true} smooth={true} offset={50} duration={500} >
-          <li className='nav contacto'>Contacto</li>
+          <li className=' contacto'>Contacto</li>
           </Link>
-          <li className='nav inicio'>Inicio</li>
+          <li className='inicio'><button className='buttom-inicio'>Inicio</button></li>
+          {/* <i><FaAngleDown/></i> */}
         </ul>
         <button
          className='mobile-menu-icon'

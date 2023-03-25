@@ -23,20 +23,19 @@ padding: 0;
 margin:0;
 box-sizing: border-box;
 }
-
-.navbar {
+ .navbar {
     display:flex;
     align-items: center;
     justify-content:space-between; 
-    height: 120px;
+    /* height: 100px; */
     padding: 0 2rem;
     background-color: #75c780;
     color: #eee;
     position: relative;
-    z-index: 1000;
-}
+    z-index: 1000;  
+} 
 
-.log {
+ .log {
     width: 80px;
     margin-left: 40px;
 }
@@ -66,23 +65,29 @@ box-sizing: border-box;
     padding: 10px 20px;
     margin: 0 10px;
     cursor: pointer;
-} 
+}
+
+
+
+.link-quienes-somos{
+    text-decoration: none;
+}
+
+.buttom-inicio{
+    background: #75c780;
+    border: none;
+    color: #eee;
+}
+
 
  @media screen and (max-width: 780px){
-    /* .logo{
-        display: flex;
-        position: absolute;
-        top: 15px;
-        left: 35px;
-    } */
-
    
     .nav-links{
         display: none;
     } 
 
      .nav-links-mobile {
-        position: absolute;
+        /* position: absolute; */
         display: block;
         list-style: none;
         background-color: #75c780;
@@ -91,7 +96,7 @@ box-sizing: border-box;
         transition: all 0.5s ease-out;
         width: 100%;
         position: static;
-        z-index: auto;
+        z-index: auto; 
     }
 
     .quienes-somos,
@@ -112,9 +117,9 @@ box-sizing: border-box;
         background-color: #75c780;
         border: none;
         outline: none;
-        top: 15px;
-        right: 25px;
-        z-index: 999;
+        top: 30px;
+        right: 35px;
+         
      } 
 
     .fas-times {
