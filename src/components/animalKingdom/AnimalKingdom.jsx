@@ -3,7 +3,7 @@ import './animalKingdom.css';
 
 const AnimalKingdom = () => {
     return(
-        <div className="conteiner">
+        <div className="conteiner" id='animal'>
   <div className="image-container">
       <img src={img} alt="reino animal"/>
   </div>

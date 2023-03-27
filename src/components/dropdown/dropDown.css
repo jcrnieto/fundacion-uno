@@ -6,3 +6,32 @@
    box-shadow: none !important;
 } */
 
+
+.dropdown-content{
+  margin-top:40px;
+  width: 170px;
+  position:absolute;
+  background: #cac4c4;
+  color: #333;
+  right: 0;
+  box-shadow: 3px, 3px, 10px, 6px rgba(0,0,0,0.06);
+}
+
+.dropdown-item :hover{
+  background: #f4f4f4;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+@media screen and (max-width: 780px){
+    .dropdown-content{
+        margin-top:55px;
+        margin-right: 80px;
+        width: 170px;
+        position:absolute;
+        background: #cac4c4;
+        color: #333;
+        right: 0;
+        box-shadow: 3px, 3px, 10px, 6px rgba(0,0,0,0.06);
+      }
+}

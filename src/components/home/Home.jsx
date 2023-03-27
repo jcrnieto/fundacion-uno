@@ -7,8 +7,9 @@ import VegetalKingdom from '../vegetalKingdom/VegetalKingdom';
 import Mineral from '../minerals/Minerals';
 import Ocean from '../ocean/Ocean';
 
+
 const Home = () => {
- 
+       
     return(
        
     <div >

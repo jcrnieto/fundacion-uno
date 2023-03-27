@@ -1,4 +1,5 @@
 import './App.css';
+import { useState } from 'react';
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import NavBar from './components/navBar/NavBar.jsx';
 import Home from './components/home/Home';
@@ -8,6 +9,7 @@ import ComponentePrueba from './components/ComponentePrueba';
 
 
 function App() {
+ 
   return (
     <BrowserRouter>
     <div className="App">

@@ -67,7 +67,7 @@
 
 
 import { useState } from 'react';
-//import  Dropdown  from '../dropdown/DropDown';
+import Dropdown  from '../dropdown/DropDown';
 
 const Navbar = () => {
    const [isMobile, setIsmobile] = useState(false);
@@ -87,7 +87,7 @@ const Navbar = () => {
           <Link  activeClass="active" to="Contacto" spy={true} smooth={true} offset={50} duration={500} >
           <li className=' contacto'>Contacto</li>
           </Link>
-          <li className='inicio'><button className='buttom-inicio'>Inicio</button></li>
+          <li className='inicio'><Dropdown/></li>
           {/* <i><FaAngleDown/></i> */}
         </ul>
         <button

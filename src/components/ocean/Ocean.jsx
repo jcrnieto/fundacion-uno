@@ -3,7 +3,7 @@ import './ocean.css';
 
 const Ocean = () => {
     return(
-        <div className="conteiner">
+        <div className="conteiner" id='oceano'>
   <div className="image-container">
       <img src={img} alt="reino animal"/>
   </div>
