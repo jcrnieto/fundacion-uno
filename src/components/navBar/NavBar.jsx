@@ -72,7 +72,7 @@ import Dropdown  from '../dropdown/DropDown';
 const Navbar = () => {
    const [isMobile, setIsmobile] = useState(false);
    const [openToggler, setOpenToggler ] = useState(false);
-  
+  //onClick={()=> setIsmobile(false)}
  return(
     <nav className='navbar'>
       <div>
@@ -80,14 +80,14 @@ const Navbar = () => {
       </div>
       
         <ul className={ isMobile? "nav-links-mobile" : "nav-links"}
-         onClick={()=> setIsmobile(false)}>
+         >
           <NavLink to='/quienesSomos' className='link-quienes-somos'>
           <li className='  quienes-somos'>Quienes Somos</li>
           </NavLink>
           <Link  activeClass="active" to="Contacto" spy={true} smooth={true} offset={50} duration={500} >
           <li className=' contacto'>Contacto</li>
           </Link>
-          <li className='inicio'><Dropdown/></li>
+         <li className='inicio'><Dropdown openToggler={openToggler} setOpenToggler={setOpenToggler} isMobile={isMobile} setIsmobile={setIsmobile}/></li>
           {/* <i><FaAngleDown/></i> */}
         </ul>
         <button
@@ -100,9 +100,7 @@ const Navbar = () => {
               <i className='fas fa-bars'></i>
             )}
         </button>
-     
-     
-    </nav>
+      </nav>
   )
 }
 

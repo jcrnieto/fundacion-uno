@@ -65,15 +65,15 @@ import './dropDown.css';
 import {FaAngleDown} from 'react-icons/fa';
 import { Link, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 
-const DropDown = () => {
+const DropDown = ({openToggler, setOpenToggler, isMobile, setIsmobile}) => {
 
-    const [isActive, setIsActive] = useState(false);
+    //const [isActive, setIsActive] = useState(false);
    
    // {isActive ? 'dropdown-menu clicked' : 'dropdown-menu' }
     return(
         <div className='dropdowun'>
-            <div className= 'dropdowun-inicio' onClick={(e)=>setIsActive(!isActive)}>Inicio <i><FaAngleDown/></i></div>
-            {isActive && (
+            <div className= 'dropdowun-inicio' onClick={(e)=>setOpenToggler(!openToggler)}>Inicio <i><FaAngleDown/></i></div>
+            {openToggler && (
                 <div className='dropdown-content' >
                     <Link  activeClass="active" to="animal" spy={true} smooth={true} offset={50} duration={500} >
                     <div className='dropdown-item'>Reino Animal</div>

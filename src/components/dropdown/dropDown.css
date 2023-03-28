@@ -24,12 +24,12 @@
 }
 
 @media screen and (max-width: 780px){
-    .dropdown-content{
+    .dropdown-content-mobile{
         margin-top:55px;
         margin-right: 80px;
         width: 170px;
         position:absolute;
-        background: #cac4c4;
+        background: #e4dddd;
         color: #333;
         right: 0;
         box-shadow: 3px, 3px, 10px, 6px rgba(0,0,0,0.06);
