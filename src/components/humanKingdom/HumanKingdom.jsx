@@ -1,8 +1,11 @@
-import img from '../../image/reino-animal.avif';
+import img from '../../image/reino-humano.avif';
 
 const HumanKingdom = () => {
    return(
     <div className="conteiner" id="humano">
+     <div className="image-container">
+      <img src={img} alt="reino animal" />
+    </div>
     <div className="content-container">
       <h1>Reino Humano</h1>
       <h3>
@@ -13,9 +16,7 @@ const HumanKingdom = () => {
         para el sostén del planeta y la purificación de las aguas.
       </h3>
     </div>
-    <div className="image-container">
-      <img src={img} alt="reino animal" />
-    </div>
+   
   </div>
    )
 }

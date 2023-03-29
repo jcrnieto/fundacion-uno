@@ -4,6 +4,9 @@ import "./vegetalKingdom.css";
 const VegetalKingdom = () => {
   return (
     <div className="conteiner" id="vegetal">
+       <div className="image-container">
+        <img src={img} alt="reino animal" />
+      </div>
       <div className="content-container">
         <h1>Reino Vegetal</h1>
         <h3>
@@ -18,9 +21,7 @@ const VegetalKingdom = () => {
           por nosotros, que podría revertir todas las enfermedades humanas.
         </h3>
       </div>
-      <div className="image-container">
-        <img src={img} alt="reino animal" />
-      </div>
+     
     </div>
   );
 };

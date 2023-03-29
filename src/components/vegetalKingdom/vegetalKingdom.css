@@ -27,9 +27,10 @@
   }
 
   @media(max-width: 768px){
-    .container {
-        flex-direction: row;
-        justify-content: space-between
+    .conteiner {
+         flex-direction: row;  
+        justify-content: space-between; 
+        /* flex-direction: column-reverse;  */
     }
     .image-container{
         flex-basis: 100%;

@@ -11,6 +11,9 @@ const DropDown = ({openToggler, setOpenToggler}) => {
             <div className= 'dropdowun-inicio' onClick={(e)=>setOpenToggler(!openToggler)}>Inicio <i><FaAngleDown/></i></div>
             {openToggler && (
                 <div className='dropdown-content' >
+                     <Link  activeClass="active" to="humano" spy={true} smooth={true} offset={50} duration={500} >
+                    <div className='dropdown-item'>Reino Humano</div>
+                    </Link>
                     <Link  activeClass="active" to="animal" spy={true} smooth={true} offset={50} duration={500} >
                     <div className='dropdown-item'>Reino Animal</div>
                     </Link>
