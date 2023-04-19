@@ -1,7 +1,8 @@
-.conteiner {
+.conteiner-animal {
     display: flex;
     height: 100vh;
     flex-wrap: wrap;
+    background-color: rgb(230, 218, 216);
   }
   
   .image-container {

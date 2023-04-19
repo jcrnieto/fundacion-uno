@@ -3,7 +3,10 @@ import "./ocean.css";
 
 const Ocean = () => {
   return (
-    <div className="conteiner" id="oceano">
+    <div className="conteiner-ocean" id="oceano">
+      <div className="image-container">
+        <img src={img} alt="reino animal" />
+      </div>
       <div className="content-container">
         <h1>Océanos</h1>
         <h3>
@@ -13,9 +16,6 @@ const Ocean = () => {
           través de los seres vivos, se establezca un equilibrio que es vital
           para el sostén del planeta y la purificación de las aguas.
         </h3>
-      </div>
-      <div className="image-container">
-        <img src={img} alt="reino animal" />
       </div>
     </div>
   );

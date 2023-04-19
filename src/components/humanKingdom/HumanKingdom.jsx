@@ -2,7 +2,7 @@ import img from '../../image/reino-humano.avif';
 
 const HumanKingdom = () => {
    return(
-    <div className="conteiner" id="humano">
+    <div className="conteiner-human" id="humano">
      <div className="image-container">
       <img src={img} alt="reino animal" />
     </div>

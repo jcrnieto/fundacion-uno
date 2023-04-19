@@ -1,7 +1,8 @@
-.conteiner {
+.conteiner-vegetal {
     display: flex;
     height: 100vh;
     flex-wrap: wrap;
+    background-color: rgb(194, 238, 181);
   }
   
   .image-container {

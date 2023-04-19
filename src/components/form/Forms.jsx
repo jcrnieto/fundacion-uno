@@ -50,7 +50,7 @@ const Forms = () => {
           </Col>
         </FormGroup>
         <FormGroup row>
-          <Label for="exampleText" sm={2}>Text Area</Label>
+          <Label for="exampleText" sm={2}>Mensaje</Label>
           <Col sm={10}>
             <Input type="textarea" name="text" id="exampleText" />
           </Col>

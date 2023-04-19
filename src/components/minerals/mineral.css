@@ -1,7 +1,8 @@
-.conteiner {
+.conteiner-minerals {
     display: flex;
     height: 100vh;
     flex-wrap: wrap;
+    background-color: rgb(238, 215, 182);
   }
   
   .image-container {

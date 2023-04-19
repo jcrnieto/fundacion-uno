@@ -16,11 +16,12 @@ const Home = () => {
     <div >
        <Carousel/> 
        <AboutMe/>
-       <HumanKingdom/>
+       
        <AnimalKingdom />
        <VegetalKingdom/>
        <Mineral/>
        <Ocean/>
+       {/* <HumanKingdom/>  */}
        <CardsCollaborators/>
        <Forms/>
     </div>

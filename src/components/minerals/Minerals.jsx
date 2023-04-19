@@ -3,7 +3,7 @@ import "./mineral.css";
 
 const Mineral = () => {
   return (
-    <div className="conteiner" id="minerales">
+    <div className="conteiner-minerals" id="minerales">
       <div className="image-container">
         <img src={img} alt="reino animal" />
       </div>

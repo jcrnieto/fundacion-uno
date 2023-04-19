@@ -3,7 +3,7 @@ import "./vegetalKingdom.css";
 
 const VegetalKingdom = () => {
   return (
-    <div className="conteiner" id="vegetal">
+    <div className="conteiner-vegetal" id="vegetal">
        <div className="image-container">
         <img src={img} alt="reino animal" />
       </div>
