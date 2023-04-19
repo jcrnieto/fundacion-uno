@@ -4,6 +4,7 @@ import Card from '../cardUnit/CardUnit';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
+import './cardsCollaborators.css';
 
 
 const Cards = () => {
@@ -13,7 +14,7 @@ const Cards = () => {
     return (
         <Container  data-aos="fade-right" style={{marginTop: '70px', marginBottom:'150px'}}>
             <h1>Colaboradores</h1>
-           <CardGroup style={{justifyContent:'center', textAlign: 'center'}}>
+           <CardGroup className='card-group'>
               {
                  date?.map((el) => {
                     return(

@@ -28,15 +28,18 @@
   }
 
   @media(max-width: 768px){
-    .container {
+    .conteiner-minerals {
         flex-direction: row;
-        justify-content: space-between
+        justify-content: space-between;
+        
+        
     }
     .image-container{
         flex-basis: 100%;
     }
     .content-container{
         flex-basis: 100%;
+        
     }
   }
 

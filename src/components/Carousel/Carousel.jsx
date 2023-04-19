@@ -3,6 +3,8 @@ import naturaleza from '../../image/naturaleza.avif';
 import animales from '../../image/animales.avif';
 import arbol from '../../image/arbol.avif';
 import Slider from "react-slick";
+import oceano from '../../image/oceano1.jpg';
+import piedras from '../../image/piedras.avif';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
@@ -32,6 +34,12 @@ const Carousel = () => {
         </div>
         <div>
           <img src={animales}  alt="" style={{width: "100%", height:"100vp"}}/>
+        </div>
+        <div>
+          <img src={oceano}  alt="" style={{width: "100%", height:"100vp"}}/>
+        </div>
+        <div>
+          <img src={piedras}  alt="" style={{width: "100%", height:"100vp"}}/>
         </div>
         </Slider>
         </div>

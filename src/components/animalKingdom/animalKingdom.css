@@ -28,7 +28,7 @@
   }
 
   @media(max-width: 768px){
-    .container {
+    .conteiner-animal {
         flex-direction: row;
         justify-content: space-between
     }
