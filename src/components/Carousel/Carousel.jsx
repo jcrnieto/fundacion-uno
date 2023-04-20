@@ -1,10 +1,10 @@
 
-import naturaleza from '../../image/naturaleza.avif';
-import animales from '../../image/animales.avif';
-import arbol from '../../image/arbol.avif';
+import naturaleza from '../../image/Naturaleza-con-frase.png';
+import animales from '../../image/Animal-con-frase.png';
+import arbol from '../../image/Arbol-con-frase.png';
 import Slider from "react-slick";
-import oceano from '../../image/oceano1.jpg';
-import piedras from '../../image/piedras.avif';
+import oceano from '../../image/oceanos-con-frase.png';
+import piedras from '../../image/Minerales-con-frase.png';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
