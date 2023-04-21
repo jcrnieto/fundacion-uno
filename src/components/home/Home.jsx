@@ -18,9 +18,9 @@ const Home = () => {
        <AboutMe/>
        
        <AnimalKingdom />
-       <VegetalKingdom/>
-       <Mineral/>
-       <Ocean/>
+        <VegetalKingdom/>
+      {/* <Mineral/>
+       <Ocean/> */}
        {/* <HumanKingdom/>  */}
        <CardsCollaborators/>
        <Forms/>

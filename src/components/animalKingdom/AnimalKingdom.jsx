@@ -4,12 +4,12 @@ import "./animalKingdom.css";
 const AnimalKingdom = () => {
   return (
     <div className="conteiner-animal" id="animal">
-      <div className="image-container">
+      <div className="image-animal">
         <img src={img} alt="reino animal" />
       </div>
       <div className="content-container">
         <h1>Reino Animal</h1>
-        <h3>
+        <h3 className="container-text">
           El Reino Animal nos enseña a amar, a amar la vida, a cuidar del
           prójimo y a ser siempre fiel a aquel que se ama plenamente. Con ellos
           aprendemos a expresar, sin miedo ni vergüenza, el amor que hay en el

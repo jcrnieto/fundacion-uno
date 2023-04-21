@@ -3,9 +3,10 @@
     height: 100vh;
     flex-wrap: wrap;
     background-color: rgb(230, 218, 216);
+    position: relative;
   }
   
-  .image-container {
+  .image-animal {
     flex: 1;
     display: flex;
     justify-content: center;
@@ -13,7 +14,7 @@
     
   }
 
-  .image-container img {
+  .image-animal img {
     max-width: 100%;
     max-height: 100%;
   }
@@ -30,13 +31,25 @@
   @media(max-width: 768px){
     .conteiner-animal {
         flex-direction: row;
-        justify-content: space-between
+        justify-content: space-between;
+        position: relative;
+        display: flex;
     }
-    .image-container{
-        flex-basis: 100%;
+    .image-animal{
+      flex-basis: 100%;
+      width: 100%;
+      height: auto; 
+      position: absolute;
     }
+
+  
     .content-container{
         flex-basis: 100%;
+        margin-top: 230px; 
+    }
+
+    .container-text{
+      margin-left: 1px;
     }
   }
 
