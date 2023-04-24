@@ -1,0 +1,14 @@
+.card{
+   margin: 15px;
+   width: 16rem;
+   text-align: center;
+   justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .card {
+     margin: auto;
+     text-align: center;
+     justify-content: center; 
+    }
+  }
