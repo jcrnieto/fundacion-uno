@@ -7,7 +7,7 @@ const VegetalKingdom = () => {
        <div className="image-vegetal">
         <img src={img} alt="reino animal" />
       </div>
-      <div className="content-container">
+      <div className="content-vegetal">
         <h1 className="title">Reino Vegetal</h1>
         <h3 className="container-text">
           Reino Vegetal es la expresión de la donación, de la elevación y de la

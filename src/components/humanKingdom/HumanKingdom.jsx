@@ -1,12 +1,13 @@
 import img from '../../image/reino-humano.avif';
+import './humanKingdom.css';
 
 const HumanKingdom = () => {
    return(
     <div className="conteiner-human" id="humano">
-     <div className="image-container">
+     <div className="image-human">
       <img src={img} alt="reino animal" />
     </div>
-    <div className="content-container">
+    <div className="content-human">
       <h1>Reino Humano</h1>
       <h3>
         Los Océanos cumplen una tarea importantísima en el equilibrio interior

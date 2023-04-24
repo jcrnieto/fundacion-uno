@@ -4,7 +4,7 @@ import "./ocean.css";
 const Ocean = () => {
   return (
     <div className="conteiner-ocean" id="oceano">
-      <div className="image-container">
+      <div className="image-ocean">
         <img src={img} alt="reino animal" />
       </div>
       <div className="content-container">

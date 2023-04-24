@@ -4,12 +4,12 @@ import "./mineral.css";
 const Mineral = () => {
   return (
     <div className="conteiner-minerals" id="minerales">
-      <div className="image-container">
+      <div className="image-minerals">
         <img src={img} alt="reino animal" />
       </div>
-      <div className="content-container">
+      <div className="content-minerals">
         <h1>Reino Mineral</h1>
-        <h3>
+        <h3  className="container-text">
           Este Reino compuesto por el agua, el suelo, piedras, rocas, minerales
           y gases, es la fuente básica de nutrición y de sustentación de los
           demás Reinos y guarda los registros más antiguos de la humanidad. El

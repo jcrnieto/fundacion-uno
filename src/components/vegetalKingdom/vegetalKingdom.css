@@ -19,7 +19,7 @@
   max-height: 100%;
 }
 
-.content-container{
+.content-vegetal{
 flex: 1;
 display: flex;
 flex-direction: column;
@@ -43,9 +43,9 @@ padding: 20px;
     position: absolute;
   }
 
-   .content-container{
+   .content-vegetal{
       flex-basis: 100%;
-      margin-top: 250px;
+      margin-top: 275px;
      
   }
 
