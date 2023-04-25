@@ -28,5 +28,6 @@ const Mineral = () => {
     </div>
   );
 };
+//#6C757D
 
 export default Mineral;
