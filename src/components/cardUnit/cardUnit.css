@@ -5,10 +5,24 @@
    justify-content: center;
 }
 
+.card-img{
+   width: 100%;
+   max-height: 50%; 
+   min-height: 50%;
+   object-fit: cover;
+}
+
 @media (max-width: 768px) {
     .card {
      margin: auto;
      text-align: center;
      justify-content: center; 
     }
+
+    .card-img{
+      
+      max-height: 50%; 
+      min-height: 50%;
+   }
+   
   }
