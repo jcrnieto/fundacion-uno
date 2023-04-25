@@ -1,9 +1,15 @@
 import img from "../../image/oceano.avif";
 import "./ocean.css";
+import Aos from 'aos';
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 
 const Ocean = () => {
+  useEffect(()=>{
+    Aos.init({duration:2000})
+ },[])
   return (
-    <div className="conteiner-ocean" id="oceano">
+    <div className="conteiner-ocean" id="oceano" data-aos="fade-up">
       <div className="image-ocean">
         <img src={img} alt="reino animal" />
       </div>

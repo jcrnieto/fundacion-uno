@@ -7,19 +7,19 @@
         id:1,
         image: fotoCard1,
         name: 'Carlos Martin Ferreyra',
-        post:'Presidente'
+        post:'Secretario'
     },
     {
         id:2,
         image: fotoCard2,
-        name: 'Carlos Martin Ferreyra',
-        post:'Secretario'
+        name: 'Cristian Sebastian Viale',
+        post:'Fundador/Secretario'
     },
     {
         id:1,
         image: fotoCard3,
-        name: 'Carlos Martin Ferreyra',
-        post:'tesorero'
+        name: 'Sabina Belén Olmedo',
+        post:'Presidente'
     }
 ]
 

@@ -1,9 +1,15 @@
 import img from "../../image/mineral.avif";
 import "./mineral.css";
+import Aos from 'aos';
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 
 const Mineral = () => {
+  useEffect(()=>{
+    Aos.init({duration:2000})
+ },[])
   return (
-    <div className="conteiner-minerals" id="minerales">
+    <div className="conteiner-minerals" id="minerales" data-aos="fade-up">
       <div className="image-minerals">
         <img src={img} alt="reino animal" />
       </div>

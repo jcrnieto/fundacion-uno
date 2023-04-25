@@ -1,9 +1,16 @@
 import img from '../../image/reino-humano.avif';
 import './humanKingdom.css';
+import Aos from 'aos';
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
+
 
 const HumanKingdom = () => {
+  useEffect(()=>{
+    Aos.init({duration:2000})
+ },[])
    return(
-    <div className="conteiner-human" id="humano">
+    <div className="conteiner-human" id="humano" data-aos="fade-up">
      <div className="image-human">
       <img src={img} alt="reino animal" />
     </div>
