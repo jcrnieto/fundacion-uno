@@ -7,6 +7,7 @@ import VegetalKingdom from '../vegetalKingdom/VegetalKingdom';
 import Mineral from '../minerals/Minerals';
 import Ocean from '../ocean/Ocean';
 import HumanKingdom from '../humanKingdom/HumanKingdom';
+import Activities from '../activities/Activities';
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
     <div >
        <Carousel/> 
        <AboutMe/>
+       <Activities/>
        <HumanKingdom/> 
        <AnimalKingdom />
        <VegetalKingdom/>

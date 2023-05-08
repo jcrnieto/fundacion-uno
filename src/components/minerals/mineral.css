@@ -1,6 +1,6 @@
 .conteiner-minerals {
   display: flex;
-  height: 100vh;
+  height: 70vh;
   flex-wrap: wrap;
   background-color: rgb(230, 218, 216);
   position: relative;

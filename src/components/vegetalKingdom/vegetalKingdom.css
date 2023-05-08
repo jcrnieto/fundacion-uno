@@ -1,6 +1,6 @@
 .conteiner-vegetal {
   display: flex;
-  height: 100vh;
+  height: 70vh;
   flex-wrap: wrap;
   background-color: rgb(207, 238, 203);
   position: relative;
@@ -35,6 +35,7 @@ padding: 20px;
       position: relative;
       display: flex;
       height: auto;
+
   }
   .image-vegetal{
     flex-basis: 100%;

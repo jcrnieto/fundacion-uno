@@ -1,0 +1,30 @@
+.title{
+    color: white;
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+.list{
+    color: white;
+}
+
+ul{
+    /* margin-top: 90px; */
+    font-size: 30px; 
+    list-style-position: inside;
+}
+
+.button-activitie{
+    margin-top: 60px;
+}
+
+
+@media(max-width: 768px){
+    .list{
+       margin-right: 8px;
+    }
+ }
+
+
+
+

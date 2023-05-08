@@ -13,7 +13,7 @@ const AboutMe = () => {
       data-aos="fade-up"
       data-aos-duration="3000"
       className="h-100"
-      style={{ marginTop: "70px" }}
+      style={{ marginTop: "70px", marginBottom:'70px' }}
     >
       <Row>
         <Col xs={12} sm={6} lg={6}>
