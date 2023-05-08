@@ -1,20 +1,19 @@
 .title{
     color: white;
-    padding-top: 90px;
-    padding-bottom: 50px;
+    padding-top: 90px; 
 }
 
 .list{
     color: white;
 }
 
-ul{
-    /* margin-top: 90px; */
-    font-size: 30px; 
-    list-style-position: inside;
+.group-list{
+     margin-top: 60px;
+     font-size: 30px; 
+    list-style-position: inside; 
 }
 
-.button-activitie{
+ .button-activitie{
     margin-top: 60px;
 }
 

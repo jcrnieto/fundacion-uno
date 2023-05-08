@@ -13,7 +13,7 @@ const Activities = () => {
       backgroundPosition: "center center",
       }}>
        <h1 className='title'>Actividades de la fundacion</h1> 
-      <ul>
+      <ul className='group-list'>
         <li className='list'>Reciclado</li>
         <li className='list'>Acciones en escuelas</li>
         <li className='list'>Ayuda a merenderos</li>
