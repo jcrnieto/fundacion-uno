@@ -1,5 +1,5 @@
 import { Container, Row, Col, Navbar } from 'reactstrap';
-import logo from "../../image/logo-fundacion-uno.jpeg";
+import logo from "../../image/logo-fundacion.png";
 import {Link} from 'react-router-dom';
 import { FaInstagram } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";

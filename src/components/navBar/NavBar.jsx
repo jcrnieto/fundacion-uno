@@ -1,4 +1,4 @@
- import logo from '../../image/logo-fundacion-uno.jpeg';
+ import logo from '../../image/logo-fundacion.png';
  import { NavLink } from 'react-router-dom';
  import { Link, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
  import './navBar.css';
@@ -38,6 +38,8 @@ const Navbar = () => {
             )}
         </button>
       </nav>
+
+      
   )
 }
 
