@@ -9,6 +9,7 @@ import { useForm } from 'react-hook-form';
 const Forms = () => {
 
   const { register, handleSubmit, formState: {errors} } = useForm();
+  
 
   const onSubmit = (data) => {
       console.log(data)
@@ -18,7 +19,7 @@ const Forms = () => {
      Aos.init({duration:2000})
   },[])
    return(
-      <div className="container">
+      <div className="container" data-aos="flip-left">
       <div class="row ">
         <div class="col-12 col-md-6 col-lg-3">
           <h2>Contacto</h2>
