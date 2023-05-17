@@ -7,7 +7,7 @@ import Dropdown  from '../dropdown/DropDown';
 import {Divide, Divide as Hamburger} from 'hamburger-react';
 
 const Navbar = () => {
-   const [isMobile, setIsmobile] = useState(false);
+   const [isMobile, setIsMobile] = useState(false);
    
   
  return(
@@ -17,16 +17,16 @@ const Navbar = () => {
       </div>
        <ul className={ isMobile? "nav-links-mobile" : "nav-links"} >
           <NavLink to='/quienesSomos' className='link-quienes-somos'>
-          <li className='  quienes-somos'>Quienes Somos</li>
+          <li className='quienes-somos'  onClick={()=> setIsMobile(!isMobile)}>Quienes Somos</li>
           </NavLink>
-          <Link  activeClass="active" to="Contacto" spy={true} smooth={true} offset={50} duration={500} >
-          <li className=' contacto'>Contacto</li>
+          <Link  activeClass="active" to="Contacto" onClick={()=> setIsMobile(!isMobile)} spy={true} smooth={true} offset={50} duration={500} >
+          <li className='contacto'>Contacto</li>
           </Link>
-         <li className='inicio'><Dropdown/></li>
+         <li className='inicio'><Dropdown isMobile={isMobile} setIsMobile={setIsMobile}/></li>
         </ul>
         <button
          className='mobile-menu-icon'
-         onClick={()=> setIsmobile(!isMobile)}
+         onClick={()=> setIsMobile(!isMobile)}
          >
             {isMobile ? (
               <Divide/>

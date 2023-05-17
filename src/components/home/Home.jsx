@@ -10,7 +10,9 @@ import HumanKingdom from '../humanKingdom/HumanKingdom';
 import Activities from '../activities/Activities';
 
 
+
 const Home = () => {
+   
        
     return(
        

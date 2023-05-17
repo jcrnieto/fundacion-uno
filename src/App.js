@@ -5,14 +5,14 @@ import Home from './components/home/Home';
 import Footer from './components/footer/Footer';
 import QuienesSomos from './components/quienesSomos/QuienesSomos.jsx';
 import ComponentePrueba from './components/ComponentePrueba';
-
+import { useState } from 'react';
 
 function App() {
- 
+  const [isMobile, setIsmobile] = useState(false);
   return (
     <BrowserRouter>
     <div className="App">
-      <NavBar/>
+      <NavBar isMobile={isMobile} setIsmobile={setIsmobile}/>
      <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/QuienesSomos' element={<QuienesSomos/>}/>
