@@ -58,7 +58,7 @@ const Forms = () => {
                 required:true,
                 pattern: /[a-zA-Z ]{2,254}/
               })}
-              name='user_name'
+            //   name='user_name'
               />
               {errors.name?.type === 'required' && <p style={{color:'red'}}>El campo nombre es requerido</p>}
               {errors.name?.type ==='pattern'  && <p style={{color:'red'}}>El campo nombre es incorrecto</p>}
@@ -69,7 +69,7 @@ const Forms = () => {
                 required:true,
                 pattern: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/
               })}
-              name='user_email'
+            //   name='user_email'
               />
               {errors.email?.type === 'required' && <p style={{color:'red'}}>El campo email es requerido</p>}
               {errors.email?.type ==='pattern'  && <p style={{color:'red'}}>El campo email es incorrecto</p>}
@@ -79,7 +79,7 @@ const Forms = () => {
               <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" {...register('phone',{
                 required:true
               })}
-              name='user_phone'
+            //   name='user_phone'
               />
               {errors.phone?.type === 'required' && <p style={{color:'red'}}>El campo telefono es requerido</p>}
            </div>
@@ -88,7 +88,7 @@ const Forms = () => {
               <textarea class="form-control" id="floatingTextarea" {...register('message',{
                 required:true
               })}
-              name='message'
+            //   name='message'
               >
               </textarea>
               {errors.phone?.type === 'required' && <p style={{color:'red'}}>El campo mensaje es requerido</p>}
