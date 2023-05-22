@@ -14,7 +14,7 @@ const AnimalKingdom = () => {
         <img src={img} alt="reino animal" />
       </div>
       <div className="content-container">
-        <h1>Reino Animal</h1>
+        <h1 className="title-container">Reino Animal</h1>
         <h3 className="container-text">
           El Reino Animal nos enseña a amar, a amar la vida, a cuidar del
           prójimo y a ser siempre fiel a aquel que se ama plenamente. Con ellos

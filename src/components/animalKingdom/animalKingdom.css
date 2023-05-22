@@ -46,11 +46,16 @@
   
     .content-container{
         flex-basis: 100%;
-        margin-top: 230px; 
+        margin-top: 270px; 
+        height: auto; 
     }
 
     .container-text{
       margin-left: 1px;
+    }
+
+    .title-container{
+      margin-top: 40px;
     }
   }
 
