@@ -15,7 +15,7 @@ const Mineral = () => {
       </div>
       <div className="content-minerals">
         <h1>Reino Mineral</h1>
-        <h3  className="container-text">
+        <h3  className="text-mineral">
           Este Reino compuesto por el agua, el suelo, piedras, rocas, minerales
           y gases, es la fuente básica de nutrición y de sustentación de los
           demás Reinos y guarda los registros más antiguos de la humanidad. El

@@ -14,8 +14,8 @@ const VegetalKingdom = () => {
         <img src={img} alt="reino animal" />
       </div>
       <div className="content-vegetal">
-        <h1 className="title">Reino Vegetal</h1>
-        <h3 className="container-text">
+        <h1 className="title-vegetal">Reino Vegetal</h1>
+        <h3 className="text-vegetal">
           Reino Vegetal es la expresión de la donación, de la elevación y de la
           belleza en la Tierra. Es responsable de crear la atmósfera que hace el
           mundo habitable a través de la fotosíntesis, y de sustentar todos los
