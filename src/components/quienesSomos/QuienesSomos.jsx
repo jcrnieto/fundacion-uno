@@ -1,8 +1,10 @@
 import image from "../../image/imgQuienesSomos1.avif";
+import KnowMore from "../knowMore/KnowMore";
 import "./quienesSomos.css";
 
 const QuienesSomos = () => {
   return (
+    <>
     <div className="contenedor" style={{ height: "750px" }}>
       <div
         style={{
@@ -27,6 +29,10 @@ const QuienesSomos = () => {
         </h4>
       </div>
     </div>
+    <div>
+      <KnowMore/>
+    </div>
+    </>
   );
 };
 

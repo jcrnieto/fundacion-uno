@@ -1,8 +1,8 @@
 import { Card, CardImg, CardTitle, CardSubtitle, CardBody } from 'reactstrap';
 import './cardUnit.css';
 
-const CardUnit = ({id, image, name, post}) => {
-  console.log(image)
+const CardUnit = ({image, name, post}) => {
+  
     return (
       <Card className='card' >
         <CardImg  className='card-img' src={image} alt="imagen" />

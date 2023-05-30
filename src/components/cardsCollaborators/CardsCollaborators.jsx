@@ -1,5 +1,5 @@
 import { Container, CardGroup } from 'reactstrap';
-import date from '../../date';
+import {date} from '../../date';
 import Card from '../cardUnit/CardUnit';
 import Aos from 'aos';
 import "aos/dist/aos.css";

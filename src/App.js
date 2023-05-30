@@ -4,7 +4,7 @@ import NavBar from './components/navBar/NavBar.jsx';
 import Home from './components/home/Home';
 import Footer from './components/footer/Footer';
 import QuienesSomos from './components/quienesSomos/QuienesSomos.jsx';
-import ComponentePrueba from './components/ComponentePrueba';
+import ComponentePrueba from './components/componentePrueba/ComponentePrueba';
 import { useState } from 'react';
 
 function App() {
