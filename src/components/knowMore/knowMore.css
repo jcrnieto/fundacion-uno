@@ -1,3 +1,19 @@
 .slick-arrow::before{
     background: red;
  }
+
+ .tile-knowmore{
+     margin-top: 50px;
+     margin-bottom: 40px;
+ }
+
+ @media(max-width: 768px){
+    .tile-knowmore{
+        margin-bottom: 40px;
+    }
+
+    .cardinfo{
+        margin-bottom: 20px;
+    }
+   
+  }
