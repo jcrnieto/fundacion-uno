@@ -1,6 +1,6 @@
 import logo from '../../image/logo-fundacion.png';
 import { NavLink } from 'react-router-dom';
-import { Link, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+//import { Link, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 import './navBar.css';
 import { useState } from 'react';
 import Dropdown  from '../dropdown/DropDown';
@@ -21,9 +21,11 @@ const Navbar = () => {
           <NavLink to='/quienesSomos' className='link-quienes-somos'>
           <li className='quienes-somos'  onClick={()=> setIsMobile(!isMobile)}>Quienes Somos</li>
           </NavLink>
-          <Link  activeClass="active" to="Contacto" onClick={()=> setIsMobile(!isMobile)} spy={true} smooth={true} offset={50} duration={500} >
+         
+          <NavLink style={{ textDecoration: 'none'}} to="/" onClick={()=> setIsMobile(!isMobile)} spy={true} smooth={true} offset={50} duration={500} >
           <li className='contacto'>Contacto</li>
-          </Link>
+          </NavLink>
+         
          <li className='inicio'><Dropdown isMobile={isMobile} setIsMobile={setIsMobile}/></li>
         </ul>
         <button

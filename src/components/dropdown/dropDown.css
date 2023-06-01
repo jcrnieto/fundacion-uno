@@ -10,6 +10,7 @@
   /* border: black; */
   /* border: 2px solid rgb(134, 132, 132); */
   border: 2px solid rgb(141, 137, 137);
+  text-decoration: none;
 }
 
 .dropdown-item{
@@ -18,6 +19,11 @@
   height: 100%;
   color: white;
   margin-left: -15px;
+  text-decoration: none;
+}
+
+li{
+  text-decoration: none;
 }
 
 /* .dropdown-item :hover{
