@@ -38,27 +38,27 @@ const DropDown = ({ isMobile, setIsMobile }) => {
             {openToggler && (
                 <ul className='dropdown-content' >
                     <Link to="humano" spy={true} smooth={true} offset={50} duration={500}>
-                        <NavLink style={{ textDecoration: 'none' }} to='/' onClick={() => { handleClick() }}>
+                        <NavLink style={{ textDecoration: 'none', color: 'white' }} to='/' onClick={() => { handleClick() }}>
                             <li className='dropdown-item'>Reino Humano</li>
                         </NavLink>
                     </Link>
                     <Link to="animal" spy={true} smooth={true} offset={50} duration={500}>
-                        <NavLink style={{ textDecoration: 'none' }} to='/' onClick={() => { handleClick() }}>
+                        <NavLink style={{ textDecoration: 'none', color: 'white' }} to='/' onClick={() => { handleClick() }}>
                             <li className='dropdown-item'>Reino Animal</li>
                         </NavLink>
                     </Link>
                     <Link to="vegetal" spy={true} smooth={true} offset={50} duration={500}>
-                        <NavLink style={{ textDecoration: 'none' }} to='/' onClick={() => { handleClick() }}>
+                        <NavLink style={{ textDecoration: 'none', color: 'white' }} to='/' onClick={() => { handleClick() }}>
                             <li className='dropdown-item'>Reino Vegetal</li>
                         </NavLink>
                     </Link>
                     <Link to="minerales" spy={true} smooth={true} offset={50} duration={500}>
-                        <NavLink style={{ textDecoration: 'none' }} to='/' onClick={() => { handleClick() }}>
+                        <NavLink style={{ textDecoration: 'none', color: 'white' }} to='/' onClick={() => { handleClick() }}>
                             <li className='dropdown-item'>Minerales</li>
                         </NavLink>
                     </Link>
                     <Link to="oceano" spy={true} smooth={true} offset={50} duration={500}>
-                        <NavLink style={{ textDecoration: 'none' }} to='/' onClick={() => { handleClick() }}>
+                        <NavLink style={{ textDecoration: 'none', color: 'white' }} to='/' onClick={() => { handleClick() }}>
                             <li className='dropdown-item'>Oceanos</li>
                         </NavLink>
                     </Link>
