@@ -38,6 +38,7 @@ box-sizing: border-box;
 
 .mobile-menu-icon{
     display: none;
+    
 }
 
  .quienes-somos,
@@ -58,11 +59,15 @@ box-sizing: border-box;
 }
 
 .buttom-inicio{
-    background: #75c780;
+    background: #8be695;
     border: none;
     color: #eee;
+   
 }
 
+.dropdown-content{
+    border-color: black;
+}
 
 
 

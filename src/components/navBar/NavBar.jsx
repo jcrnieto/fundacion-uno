@@ -4,7 +4,9 @@ import { Link, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll
 import './navBar.css';
 import { useState } from 'react';
 import Dropdown  from '../dropdown/DropDown';
-import {Divide, Divide as Hamburger} from 'hamburger-react';
+//import {Divide, Divide as Hamburger} from 'hamburger-react';
+import { HiOutlineMenuAlt1 } from 'react-icons/hi';
+import { VscClose } from 'react-icons/vsc';
 
 const Navbar = () => {
    const [isMobile, setIsMobile] = useState(false);
@@ -29,9 +31,12 @@ const Navbar = () => {
          onClick={()=> setIsMobile(!isMobile)}
          >
             {isMobile ? (
-              <Divide/>
+            //  <Hamburger/>
+            <VscClose/>
              ):(
-             <Hamburger/>
+              // <Divide/>
+              
+              <HiOutlineMenuAlt1/>
              )}
         </button>
       </nav>

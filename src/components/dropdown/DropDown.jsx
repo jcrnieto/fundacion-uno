@@ -4,11 +4,12 @@ import { Link, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll
 import { useState } from 'react';
 
 const DropDown = ({isMobile, setIsMobile}) => {
+   // console.log('ismobile', isMobile)
     const [openToggler, setOpenToggler ] = useState(false);
 
    const handleClick = () => {
     setOpenToggler(!openToggler);
-    setIsMobile(!isMobile)
+    setIsMobile(!isMobile);
    }
 
     // const [isClicked, setIsClicked] = useState(false);
