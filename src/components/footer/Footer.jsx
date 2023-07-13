@@ -24,14 +24,14 @@ function Footer() {
              <li className='font-weight-bold '>CATEGORIAS</li>
              <li><Link to='/' className='text-white text-decoration-none'>Inicio</Link></li>
              <li><Link  to='/QuienesSomos' className='text-white text-decoration-none'>Quienes Somos</Link></li>
-             <li><Link  to='/Contacto' className='text-white text-decoration-none'>Contacto</Link></li>
+             <li><Link  to='/' className='text-white text-decoration-none'>Contacto</Link></li>
           </ul>
           </Col>
           <Col xs={12} sm={6} lg={3}>
           <ul className='col-12 col-md-3 list-unstyled'>
              <li className='font-weight-bold'>CONTACTANOS</li>
              <li>
-               <a className='text-white text-decoration-none' href="https://wa.me/+543516468746" target="_blank" rel="noreferrer"><i className="mx-1"><FaWhatsapp/></i>5493516468746</a>
+               <a className='text-white text-decoration-none' href="https://wa.me/+543512216357" target="_blank" rel="noreferrer"><i className="mx-1"><FaWhatsapp/></i>5493512216357</a>
              </li>
              <li>
               <a className='text-white text-decoration-none' href="" target="_blank" rel="noreferrer"><i className="mx-1"><SiGmail/></i>somosunoservicio@gmail.com</a>
