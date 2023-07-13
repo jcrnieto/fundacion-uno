@@ -34,7 +34,7 @@ function Footer() {
                <a className='text-white text-decoration-none' href="https://wa.me/+543516468746" target="_blank" rel="noreferrer"><i className="mx-1"><FaWhatsapp/></i>5493516468746</a>
              </li>
              <li>
-              <a className='text-white text-decoration-none' href="" target="_blank" rel="noreferrer"><i className="mx-1"><SiGmail/></i> jcrnietoa@gmail.com</a>
+              <a className='text-white text-decoration-none' href="" target="_blank" rel="noreferrer"><i className="mx-1"><SiGmail/></i>somosunoservicio@gmail.com</a>
              </li>
              <li>
               <a className='text-white text-decoration-none' href="" target="_blank" rel="noreferrer"><i className="mx-1"><GrLocation/></i> Córdoba Capital</a>

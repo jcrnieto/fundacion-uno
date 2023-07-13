@@ -15,7 +15,7 @@ const QuienesSomos = () => {
         }}
       >
         <h1 style={{ color: "#141313", paddingTop: "50px" }}>
-          contenido quienes somos
+           Quienes Somos
         </h1>
         <h4 style={{ color: "#eee", paddingTop: "50px" }}>
           Corazones que por gracia divina despertaron de la ilusión y
