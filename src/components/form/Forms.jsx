@@ -43,7 +43,7 @@ const Forms = () => {
              <a className='link-secondary text-decoration-none d-flex mt-3' href="https://wa.me/+543512216357" target="_blank" rel="noreferrer"><i className="mx-2"><FaWhatsapp/></i>5493512216357</a>
          </li>
          <li>
-             <a className='link-secondary text-decoration-none d-flex mt-3' href="somosunoservicio@gmail.com" target="_blank" rel="noreferrer"><i className="mx-2"><SiGmail/></i>somosunoservicio@gmail.com</a>
+             <a className='link-secondary text-decoration-none d-flex mt-3' href="https://somosunoservicio@gmail.com" target="_blank" rel="noreferrer"><i className="mx-2"><SiGmail/></i>somosunoservicio@gmail.com</a>
          </li>
          <li>
              <a className='link-secondary text-decoration-none d-flex mt-3'  target="_blank" rel="noreferrer"><i className="mx-2"><GrLocation/></i> Córdoba Capital</a>

@@ -34,10 +34,10 @@ function Footer() {
                <a className='text-white text-decoration-none' href="https://wa.me/+543512216357" target="_blank" rel="noreferrer"><i className="mx-1"><FaWhatsapp/></i>5493512216357</a>
              </li>
              <li>
-              <a className='text-white text-decoration-none' href="" target="_blank" rel="noreferrer"><i className="mx-1"><SiGmail/></i>somosunoservicio@gmail.com</a>
+              <a className='text-white text-decoration-none' href="https://somosunoservicio@gmail.com" target="_blank" rel="noreferrer"><i className="mx-1"><SiGmail/></i>somosunoservicio@gmail.com</a>
              </li>
              <li>
-              <a className='text-white text-decoration-none' href="" target="_blank" rel="noreferrer"><i className="mx-1"><GrLocation/></i> Córdoba Capital</a>
+              <a className='text-white text-decoration-none' href="/"><i className="mx-1"><GrLocation/></i> Córdoba Capital</a>
             </li>
           </ul>
           </Col>
@@ -46,7 +46,7 @@ function Footer() {
             <li className='font-weight-bold '>SIGUENOS</li>
                 <li className='d-flex justify-content-center'>
                     <a href="https://www.youtube.com/@unosomos8137" target="_blank" rel="noreferrer"><i><FaYoutubeSquare size={30}/></i></a>
-                    <a href="https://instagram.com/placeres_sin_tacc_ok?igshid=YmMyMTA2M2Y=" target="_blank" rel="noreferrer"><i><FaInstagram size={30}/></i></a>
+                    <a href="https://instagram.com/fundacion.uno.somostodos?igshid=MzRlODBiNWFlZA==" target="_blank" rel="noreferrer"><i><FaInstagram size={30}/></i></a>
                  </li>
                 </ul>
           </Col>
