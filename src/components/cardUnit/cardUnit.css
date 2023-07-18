@@ -1,15 +1,16 @@
-.card{
+ .card{
    margin: 15px;
    width: 16rem;
    text-align: center;
    justify-content: center;
+  
 }
 
 .card-img{
-   width: 100%;
    max-height: 50%; 
    min-height: 50%;
    object-fit: cover;
+   height: 40px;
 }
 
 @media (max-width: 768px) {
@@ -20,9 +21,11 @@
     }
 
     .card-img{
-      
       max-height: 50%; 
       min-height: 50%;
+      object-fit: cover;
+      width: 100%;
+      height: auto;
    }
    
-  }
+  } 
