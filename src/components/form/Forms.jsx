@@ -7,15 +7,17 @@ import { useEffect } from 'react';
 import { useForm } from 'react-hook-form';
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-
-const Forms = () => {
+const serviceId = process.env.REACT_APP_SERVICE_ID;
+const templateId = process.env.REACT_APP_TEMPLATE_ID;
+const apikey =  process.env.REACT_APP_PUBLIC_KEY;
  
+const Forms = () => {
+  console.log(serviceId)
   const { register, handleSubmit, formState: {errors} } = useForm();
   const form = useRef();
 
   const onSubmit = (e) => {
-      //console.log('17',e)
-      emailjs.sendForm('service_mh0ql2j', 'template_1g2pe8f', form.current, 'ZIqqp_vKJRp4C5CA8')
+      emailjs.sendForm(serviceId, templateId, form.current, apikey)
       .then((result)=>{
          console.log(result.text);
          alert('Formulario enviado con éxito')

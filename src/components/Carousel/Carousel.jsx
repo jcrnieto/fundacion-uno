@@ -4,9 +4,6 @@ import Slider from "react-slick";
 import oceano from '../../image/oceanos-con-frase.png';
 import piedras from '../../image/Minerales-con-frase.png';
 import animales from '../../image/animal-frase.png';
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
-
 
 const Carousel = () => {
 

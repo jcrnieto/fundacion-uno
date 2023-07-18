@@ -29,8 +29,6 @@ const date = [
   },
 ];
 
-//export default date;
-
 const infoCard = [
   {
     id: 1,
@@ -63,7 +61,5 @@ const infoCard = [
     description:"Realizamos visitas a colegios, escuelas de fútbol con el objetivo de concientizar. Primeramente, nos reunimos con docentes y directores para diagramar las charlas y los encuentros. Generalmente, los temas que se abordan están estrechamente vinculados con  materias que están cursando en el período de visitas. En las escuelas de fútbol, los encuentros están bajo el lema: “JUGUEMOS EL ENTERO”. Y las charlas están enfocadas sobre todas las acciones que podemos hacer para favorecer al Planeta, luego se plasman acciones como: plantar arbolitos alimentarios en los clubes; colocar contenedores para reciclar materiales; hacer huertas. Siempre el sentido de las visitas sea cuál sea la institución es hacer consciente que somos UNO con el agua, con la Tierra, con los árboles, con los animales…con el PLANETA. Y que toda acción, por más pequeña que parezca, si es a favor del cuidado de los Recursos que en la vida tenemos disponibles, esa acción nos favorece a TODOS.", 
   },
 ];
-
-//export default infoCard;
 
 export { date, infoCard }
