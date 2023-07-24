@@ -31,7 +31,7 @@ function Footer() {
           <ul className='col-12 col-md-3 list-unstyled'>
              <li className='font-weight-bold'>CONTACTANOS</li>
              <li className="align-items-center mt-2">
-               <i className="mx-1"><FaWhatsapp/></i>
+               <i className="mx-1 align-self-start"><FaWhatsapp/></i>
                <a className='text-white text-decoration-none' href="https://wa.me/+543512216357" target="_blank" rel="noreferrer">5493512216357</a>
              </li>
              <li className="align-items-center mt-2">

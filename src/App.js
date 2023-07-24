@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import NavBar from './components/navBar/NavBar.jsx';
 import Home from './components/home/Home';
 import Footer from './components/footer/Footer';
@@ -11,17 +11,15 @@ function App() {
   const [isMobile, setIsmobile] = useState(false);
   return (
     <BrowserRouter>
-    <div className="App">
-      <NavBar isMobile={isMobile} setIsmobile={setIsmobile}/>
-     <Routes>
-      <Route path='/' element={<Home/>}/>
-      <Route path='/QuienesSomos' element={<QuienesSomos/>}/>
-      <Route path='/prueba' element={<ComponentePrueba/>}/> 
-     </Routes>
-    
-     <Footer/>
-      
-    </div>
+      <div className="App">
+        <NavBar isMobile={isMobile} setIsmobile={setIsmobile} />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/QuienesSomos' element={<QuienesSomos />} />
+          <Route path='/prueba' element={<ComponentePrueba />} />
+        </Routes>
+        <Footer />
+      </div>
     </BrowserRouter>
   );
 }

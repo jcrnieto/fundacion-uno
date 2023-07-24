@@ -7,6 +7,10 @@
      margin-bottom: 40px;
  }
 
+ .cardinfo{
+    margin-left: 70px;
+}
+
  @media(max-width: 768px){
     .tile-knowmore{
         margin-bottom: 40px;
@@ -14,6 +18,8 @@
 
     .cardinfo{
         margin-bottom: 20px;
+        margin-left: 0;
+        margin-right: 0;
     }
    
   }
