@@ -7,11 +7,11 @@ import Dropdown  from '../dropdown/DropDown';
 import { HiOutlineMenuAlt1 } from 'react-icons/hi';
 import { VscClose } from 'react-icons/vsc';
 
-const Navbar = () => {
-   const [isMobile, setIsMobile] = useState(false);
+ const Navbar = () => {
+    const [isMobile, setIsMobile] = useState(true);
    
   
- return(
+  return(
     <nav className='navbar'>
       <div>
         <NavLink to='/'><img src={logo} alt='' className='log'/></NavLink>
@@ -40,8 +40,7 @@ const Navbar = () => {
              )}
         </button>
       </nav>
-
-      
+        
   )
 }
 

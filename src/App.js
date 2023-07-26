@@ -1,18 +1,19 @@
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import NavBar from './components/navBar/NavBar.jsx';
+//import NavBar from './components/navBar/NavBar.jsx';
 import Home from './components/home/Home';
 import Footer from './components/footer/Footer';
 import QuienesSomos from './components/quienesSomos/QuienesSomos.jsx';
 import ComponentePrueba from './components/componentePrueba/ComponentePrueba';
-import { useState } from 'react';
+import NavbarBootstrap from './components/navBar/NavbarBootstrap';
+
 
 function App() {
-  const [isMobile, setIsmobile] = useState(false);
   return (
     <BrowserRouter>
       <div className="App">
-        <NavBar isMobile={isMobile} setIsmobile={setIsmobile} />
+        {/* <NavBar /> */}
+        <NavbarBootstrap/>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/QuienesSomos' element={<QuienesSomos />} />

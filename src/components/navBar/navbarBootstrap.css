@@ -1,0 +1,41 @@
+.collapse{
+    justify-content: flex-end;
+}
+
+.drop-down-menu{
+    right: 0;
+}
+
+.drop-down-menu, .dropdown-menu, .show{
+    margin-left: 30px;
+   }
+
+@media screen and (max-width: 780px){
+    .drop-down-menu, .dropdown-menu, .show{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+     .dropdown-item{
+        margin-left: 50px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+     .navbar-toggler{
+        border: none;
+        outline: none;
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    .navbar-toggler-icon{
+        border: 0;
+        outline: none;
+        background-color: transparent;
+    }
+    
+}   
+
