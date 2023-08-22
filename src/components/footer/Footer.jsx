@@ -14,12 +14,12 @@ function Footer() {
         <div className='container-fluid'>
       <Container>
         <Row>
-          <Col xs={12} sm={6} lg={3}>
+          <Col xs={12} sm={12} lg={3}>
           <Link to='/'>
              <img src={logo} alt='' className='mx-2' width='100'/>
           </ Link>
           </Col>
-          <Col xs={12} sm={6} lg={3}>
+          <Col xs={12} sm={12} lg={3}>
           <ul className='col-12 col-md-3 list-unstyled'>
              <li className='font-weight-bold'>CATEGORIAS</li>
              <li className='mt-2'><Link to='/' className='text-white text-decoration-none'>Inicio</Link></li>
@@ -27,24 +27,24 @@ function Footer() {
              <li className='mt-2'><Link  to='/' className='text-white text-decoration-none'>Contacto</Link></li>
           </ul>
           </Col>
-          <Col xs={12} sm={6} lg={3}>
+          <Col xs={12} sm={12} lg={3}>
           <ul className='col-12 col-md-3 list-unstyled'>
              <li className='font-weight-bold'>CONTACTANOS</li>
-             <li className="align-items-center mt-2">
+             <li className="align-items-center mt-2 d-flex justify-content-center">
                <i className="mx-1 align-self-start"><FaWhatsapp/></i>
                <a className='text-white text-decoration-none' href="https://wa.me/+543512216357" target="_blank" rel="noreferrer">5493512216357</a>
              </li>
-             <li className="align-items-center mt-2">
+             <li className="align-items-center mt-2 d-flex justify-content-center">
                <i className="mx-1"><SiGmail/></i>
                <a className='text-white text-decoration-none' href="https://somosunoservicio@gmail.com" target="_blank" rel="noreferrer">somosunoservicio@gmail.com</a>
              </li>
-             <li className="align-items-center mt-2">
+             <li className="align-items-center mt-2 d-flex justify-content-center">
                <i className="mx-1"><GrLocation/></i>
-               <a className='text-white text-decoration-none' href="/"> Córdoba Capital</a>
+               <a className='text-white text-decoration-none' href="/"> Córdoba </a>
             </li>
           </ul>
           </Col>
-          <Col xs={12} sm={6} lg={3}>
+          <Col xs={12} sm={12} lg={3}>
           <ul className='col-12 col-md-3 list-unstyled'>
             <li className='font-weight-bold '>SIGUENOS</li>
                 <li className='d-flex justify-content-center'>

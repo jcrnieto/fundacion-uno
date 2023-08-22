@@ -1,13 +1,16 @@
 .card-group{
+    display: flex;
     text-align: center;
     justify-content: center;
    }
 
 
 
-   @media (max-width: 768px) {
+   @media (max-width: 767px) {
     .card-group {
-      flex-direction: column;
+         display: flex;
+         flex-direction: column;
+        
       }
      
   }

@@ -16,14 +16,14 @@ const AboutMe = () => {
       style={{ marginTop: "70px", marginBottom:'70px' }}
     >
       <Row>
-        <Col xs={12} sm={6} lg={6}>
+        <Col xs={12} sm={12} lg={6}>
           <ReactPlayer
             url="https://youtu.be/r0FtsC8Wvfc"
             width="100%"
             height="100%"
           />
         </Col>
-        <Col xs={12} sm={6} lg={6}>
+        <Col xs={12} sm={12} lg={6}>
           <h1>Sobre nosotros</h1>
           <p>
             Somos Fundación Uno, una organización sin fines de lucro

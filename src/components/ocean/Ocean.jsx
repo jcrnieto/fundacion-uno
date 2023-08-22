@@ -14,7 +14,7 @@ const Ocean = () => {
         <img src={img} alt="reino animal" />
       </div>
       <div className="content-container">
-        <h1>Océanos</h1>
+        <h1 className="title-ocean">Océanos</h1>
         <h3 className="text-ocean">
           Los Océanos cumplen una tarea importantísima en el equilibrio interior
           y emocional de la humanidad. En las profundas aguas de los océanos

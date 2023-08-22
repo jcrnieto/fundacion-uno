@@ -14,7 +14,7 @@ const Mineral = () => {
         <img src={img} alt="reino animal" />
       </div>
       <div className="content-minerals">
-        <h1>Reino Mineral</h1>
+        <h1 className="title-mineral">Reino Mineral</h1>
         <h3  className="text-mineral">
           Este Reino compuesto por el agua, el suelo, piedras, rocas, minerales
           y gases, es la fuente básica de nutrición y de sustentación de los

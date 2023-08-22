@@ -11,11 +11,11 @@ const HumanKingdom = () => {
  },[])
    return(
     <div className="conteiner-human" id="humano" data-aos="fade-up">
-     <div className="image-human">
-      <img src={img} alt="reino animal" />
-    </div>
+      <div className="image-human">
+        <img src={img} alt="reino animal" />
+      </div>
     <div className="content-human">
-      <h1>Reino Humano</h1>
+      <h1 className='title-human'>Reino Humano</h1>
       <h3>
         Los Océanos cumplen una tarea importantísima en el equilibrio interior
         y emocional de la humanidad. En las profundas aguas de los océanos

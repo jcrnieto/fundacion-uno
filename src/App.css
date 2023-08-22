@@ -1,20 +1,22 @@
-*{
+body, html, #root {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
+ }
 
 h1, h3{
   color: #6C757D;
 }
 
-.App {
+ .App {
   text-align: center;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   background-color: #fafafa;
-}
+  margin-right: 0; 
+  margin-left: 0;
+  padding: 0;
+} 
 
 
 
