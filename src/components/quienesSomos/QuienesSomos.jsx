@@ -5,7 +5,7 @@ import "./quienesSomos.css";
 const QuienesSomos = () => {
   return (
     <>
-    <div className="contenedor" style={{ height: "750px" }}>
+    <div className="contenedor" style={{ height: "750px", textAlign:'center' }}>
       <div
         style={{
           backgroundImage: `url(${image})`,
@@ -14,10 +14,10 @@ const QuienesSomos = () => {
           backgroundPosition: "center center",
         }}
       >
-        <h1 style={{ color: "#141313", paddingTop: "50px" }}>
+        <h1 style={{ color: "#eee", paddingTop: "50px", height:'0%' }}>
            Quienes Somos
         </h1>
-        <h4 style={{ color: "#eee", paddingTop: "50px" }}>
+        <h4 style={{ color: "#eee", paddingTop: "50px",  lineHeight: '2' }}>
           Corazones que por gracia divina despertaron de la ilusión y
           comprendieron por medio del servicio la unidad en Dios que todos
           somos. A través de la Fundación, invitamos a participar y reparar el

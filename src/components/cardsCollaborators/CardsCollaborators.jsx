@@ -1,4 +1,4 @@
-import { Container, CardGroup } from 'reactstrap';
+//import { Container, CardGroup } from 'reactstrap';
 import {date} from '../../date';
 import Card from '../cardUnit/CardUnit';
 import Aos from 'aos';
@@ -12,9 +12,9 @@ const Cards = () => {
         Aos.init({duration:2000})
      },[])
     return (
-        <Container  data-aos="fade-right" style={{marginTop: '70px', marginBottom:'150px'}}>
+        <div  data-aos="fade-right" style={{marginTop: '70px', marginBottom:'150px'}}>
             <h1>Colaboradores</h1>
-           <CardGroup className='card-group'>
+           <div className='card-group'>
               {
                  date?.map((el) => {
                     return(
@@ -30,8 +30,8 @@ const Cards = () => {
                     )
                 })
               }
-           </CardGroup>
-        </Container>
+           </div>
+        </div>
     )
 }
 

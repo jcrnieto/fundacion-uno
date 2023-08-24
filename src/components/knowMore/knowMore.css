@@ -1,5 +1,6 @@
-.slick-arrow::before{
-    background: red;
+.slick-arrow::before {
+    height: 60px;
+    background: black;
  }
 
  .tile-knowmore{
@@ -7,19 +8,16 @@
      margin-bottom: 40px;
  }
 
- .cardinfo{
-    margin-left: 70px;
-}
+ .slick-slider .slick-initialized{
+    display: flex;
+    text-align: center;
+    text-align: center;
+ }
 
- @media(max-width: 768px){
+
+@media(max-width: 768px){
     .tile-knowmore{
         margin-bottom: 40px;
     }
 
-    .cardinfo{
-        margin-bottom: 20px;
-        margin-left: 0;
-        margin-right: 0;
-    }
-   
-  }
+}

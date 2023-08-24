@@ -55,7 +55,7 @@ const KnowMore = () => {
         {
           infoCard.map((card) => {
             return (
-              <div className="cardinfo" key={card.id}>
+              <div className="card-info" key={card.id}>
                 <CardInfo
                   id={card.id}
                   image={card.image}
