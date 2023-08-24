@@ -16,7 +16,8 @@ const Carousel = () => {
         autoplay: true,
         autoplaySpeed: 3000,
         focusOnChange: true,
-        pauseOnFocus:true
+        pauseOnFocus:true,
+        arrows: false,
       };
 
     return(

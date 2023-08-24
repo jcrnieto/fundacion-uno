@@ -45,6 +45,13 @@ const KnowMore = () => {
           arrows: false,
         },
       },
+      {
+        breakpoint: 995,
+        settings: {
+          slidesToShow: 1,
+          arrows: false,
+        },
+      }
     ],
   };
 

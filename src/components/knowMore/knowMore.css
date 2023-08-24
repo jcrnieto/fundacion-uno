@@ -3,18 +3,12 @@
     background: black;
  }
 
- .tile-knowmore{
+  .tile-knowmore{
      margin-top: 50px;
      margin-bottom: 40px;
- }
+ } 
 
- .slick-slider .slick-initialized{
-    display: flex;
-    text-align: center;
-    text-align: center;
- }
-
-
+ 
 @media(max-width: 768px){
     .tile-knowmore{
         margin-bottom: 40px;
