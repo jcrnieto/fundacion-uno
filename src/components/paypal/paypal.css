@@ -1,6 +1,6 @@
 .paypal-container{
     height: 40vh;
-    
+    background: #e3e3e3;
 }
 
 .container-buttom{
@@ -9,7 +9,7 @@
 }
 
 .title-paypal{
-    margin-top: 40px;
+    padding-top: 20px;
     margin-bottom: 50px;
 }
 

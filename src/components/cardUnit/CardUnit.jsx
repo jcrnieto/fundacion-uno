@@ -3,7 +3,7 @@ import './cardUnit.css';
 const CardUnit = ({ image, name, post }) => {
 
   return (
-    <div className="card">
+    <div className="card-unit">
       <div className="card-image">
          <img src={image} alt='imagen' className='image'/>
       </div>

@@ -16,7 +16,7 @@ const HumanKingdom = () => {
       </div>
     <div className="content-human">
       <h1 className='title-human'>Reino Humano</h1>
-      <h3>
+      <h3 className='text-content'>
         Los Océanos cumplen una tarea importantísima en el equilibrio interior
         y emocional de la humanidad. En las profundas aguas de los océanos
         toda la vida marina crea la condición para que en el lecho del mar, a

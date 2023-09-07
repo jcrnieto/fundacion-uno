@@ -7,6 +7,7 @@ import { useEffect } from 'react';
 import { useForm } from 'react-hook-form';
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import './form.css'
 const serviceId = process.env.REACT_APP_SERVICE_ID;
 const templateId = process.env.REACT_APP_TEMPLATE_ID;
 const apikey =  process.env.REACT_APP_PUBLIC_KEY;
@@ -36,10 +37,10 @@ const Forms = () => {
      Aos.init({duration:2000})
   },[])
    return(
-      <div className="container" data-aos="flip-left" id="Contacto">
-      <div class="row ">
-        <div class="col-12 col-md-6 col-lg-3">
-          <h2>Contacto</h2>
+      <div className="container-form" data-aos="flip-left" id="Contacto">
+      <div className="row ">
+        <div className="col-12 col-md-6 col-lg-3">
+          <h2 className="contact-form">Contacto</h2>
           <ul className='col-12 col-md-3 list-unstyled'>
           <li>
              <a className='link-secondary text-decoration-none d-flex mt-3' href="https://wa.me/+543512216357" target="_blank" rel="noreferrer"><i className="mx-2"><FaWhatsapp/></i>5493512216357</a>

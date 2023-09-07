@@ -1,7 +1,7 @@
 .conteiner-animal {
     display: flex;
     height: 70vh;
-    background-color: rgb(230, 218, 216);
+    background-color: #113d0d;
     flex-direction: row;
   }
   
@@ -22,6 +22,11 @@
 
   .title-container{
     margin-top: 50px;
+  }
+
+  .container-text{
+    color: aliceblue;
+    margin: 10px;
   }
 
   @media(max-width: 767px){

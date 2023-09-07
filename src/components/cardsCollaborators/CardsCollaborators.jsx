@@ -12,8 +12,8 @@ const Cards = () => {
         Aos.init({duration:2000})
      },[])
     return (
-        <div  data-aos="fade-right" style={{marginTop: '70px', marginBottom:'150px'}}>
-            <h1>Colaboradores</h1>
+        <div className='container-collaborators'>
+            <h1 className='title-collaborators'>Colaboradores</h1>
            <div className='card-group'>
               {
                  date?.map((el) => {

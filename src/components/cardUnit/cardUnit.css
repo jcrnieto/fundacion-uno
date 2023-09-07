@@ -1,16 +1,17 @@
-.card {
+ 
+  .card-unit {
    padding: 20px;
    margin: 20px;
-   width: 200px;
-   height: 270px;
+   width: 350px;
+   height: auto;
    border-radius: 20px;
    background:#e8e8e8;
    box-shadow: 5px 5px 6px #dadada,
                 -5px -5px 6px #f6f6f6;
    transition: 0.4s;
- }
+ } 
  
- .card:hover {
+ .card-unit:hover {
    translate: 0 -10px;
  }
 
@@ -42,10 +43,10 @@
  }
 
  @media (max-width: 767px) {
-   .card {
+   .card-unit {
         display: flex;
         flex-direction: column;
         width: auto;
      }
     
- }
+ } 

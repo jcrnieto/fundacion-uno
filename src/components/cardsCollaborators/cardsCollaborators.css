@@ -1,10 +1,16 @@
+.container-collaborators{
+    background: #e3e3e3;
+}
+
 .card-group{
     display: flex;
     text-align: center;
     justify-content: center;
-   }
+}
 
-
+.title-collaborators{
+    padding-top: 40px;
+}
 
    @media (max-width: 767px) {
     .card-group {

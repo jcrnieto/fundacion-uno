@@ -1,7 +1,7 @@
 .conteiner-vegetal {
   display: flex;
   height: 70vh;
-  background-color: rgb(189, 248, 165);
+  background-color:#113d0d;
   flex-direction: row;
  }
 
@@ -27,6 +27,8 @@
 
 .text-vegetal{
   font-size: 21px;
+  color: aliceblue;
+  margin: 10px;
 }
 
 @media(max-width: 767px){
