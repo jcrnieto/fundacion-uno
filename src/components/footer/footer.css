@@ -5,6 +5,7 @@
     justify-content: space-around;
     text-align: center;
     height: 170px;
+    width: auto;
 }
 
 .logo{
@@ -89,6 +90,12 @@
 
 .instagram{
     color: #a64c85;
+}
+
+.icons-contact{
+    margin-right: 10px;
+    font-size: 20px;
+    color: #e0c8d7;
 }
 
 @media (max-width: 768px){

@@ -1,68 +1,75 @@
 import './dropDown.css';
-import { FaAngleDown } from 'react-icons/fa';
-import { Link, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
-import { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate  } from 'react-router-dom';
 
-const DropDown = ({ isMobile, setIsMobile }) => {
-    // console.log('ismobile', isMobile)
-    const [openToggler, setOpenToggler] = useState(false);
+const DropDown = ({ menuOpen, setMenuOpen, openToggler, setOpenToggler }) => {
+    
+    const navigate = useNavigate();
 
     const handleClick = () => {
         setOpenToggler(!openToggler);
-        setIsMobile(!isMobile);
+        setMenuOpen(!menuOpen);
     }
 
-    // const [isClicked, setIsClicked] = useState(false);
+    const handleScroll = (event, targetId) => {
+        event.preventDefault();
+        const targetElement = document.getElementById(targetId);
+        if (targetElement) {
+          targetElement.scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'nearest' });
+          setMenuOpen(false);
+        }
 
-    // const handleTooglerOpen = () => {
-    //     setOpenToggler(true);
-    //   };
-
-    //   const handleToggleClose = () => {
-    //     setOpenToggler(false);
-    //   };
-
-    //   const handleToggleClick = () => {
-    //     setIsClicked(!isClicked);
-    //     setOpenToggler(!openToggler);
-    //   };
-
+        if (targetId) {
+            navigate('/');
+          }
+      };
     return (
-        <div className='dropdowun'
-        // onMouseEnter={handleTooglerOpen}
-        // onMouseLeave={handleToggleClose}
-        >
-            <div className='dropdowun-inicio' onClick={(e) => setOpenToggler(!openToggler)}>Inicio <i><FaAngleDown /></i></div>
+        <div className='dropdowun' >
+            <div className='dropdowun-inicio' onClick={(e) => setOpenToggler(!openToggler)}>Inicio</div>
 
             {openToggler && (
                 <ul className='dropdown-content' >
-                    <Link to="humano" spy={true} smooth={true} offset={50} duration={500}>
-                        <NavLink style={{ textDecoration: 'none', color: 'white' }} to='/' onClick={() => { handleClick() }}>
-                            <li className='dropdown-item'>Reino Humano</li>
-                        </NavLink>
-                    </Link>
-                    <Link to="animal" spy={true} smooth={true} offset={50} duration={500}>
-                        <NavLink style={{ textDecoration: 'none', color: 'white' }} to='/' onClick={() => { handleClick() }}>
-                            <li className='dropdown-item'>Reino Animal</li>
-                        </NavLink>
-                    </Link>
-                    <Link to="vegetal" spy={true} smooth={true} offset={50} duration={500}>
-                        <NavLink style={{ textDecoration: 'none', color: 'white' }} to='/' onClick={() => { handleClick() }}>
-                            <li className='dropdown-item'>Reino Vegetal</li>
-                        </NavLink>
-                    </Link>
-                    <Link to="minerales" spy={true} smooth={true} offset={50} duration={500}>
-                        <NavLink style={{ textDecoration: 'none', color: 'white' }} to='/' onClick={() => { handleClick() }}>
-                            <li className='dropdown-item'>Minerales</li>
-                        </NavLink>
-                    </Link>
-                    <Link to="oceano" spy={true} smooth={true} offset={50} duration={500}>
-                        <NavLink style={{ textDecoration: 'none', color: 'white' }} to='/' onClick={() => { handleClick() }}>
-                            <li className='dropdown-item'>Oceanos</li>
-                        </NavLink>
-                    </Link>
-                </ul>
+                   
+                           <li className='dropdown-item'>
+                               <a 
+                                 href="#humano"  
+                                 onClick={(e) => { handleScroll(e, 'humano');setMenuOpen(!menuOpen)}}
+                                 className='link'
+                                > Reino Humano </a>
+                            </li>
+                       
+                            <li className='dropdown-item'>
+                                <a
+                                  href="#animal"
+                                  onClick={(e) => { handleScroll(e, 'animal');setMenuOpen(!menuOpen)}}
+                                  className='link'
+                                > Reino Animal </a>
+                            </li>
+                        
+                            <li className='dropdown-item'>
+                                <a
+                                  href="#animal"
+                                  onClick={(e) => { handleScroll(e, 'vegetal');setMenuOpen(!menuOpen)}}
+                                  className='link'
+                                > Reino Vegetal </a>
+                            </li>
+                   
+                            <li className='dropdown-item'>
+                                <a
+                                  href="#minerales"
+                                  onClick={(e) => { handleScroll(e, 'minerales');setMenuOpen(!menuOpen)}}
+                                  className='link'
+                                > Minerales </a>
+                            </li>
+                     
+                            <li className='dropdown-item'>
+                                <a
+                                  href="#oceano"
+                                  onClick={(e) => { handleScroll(e, 'oceano');setMenuOpen(!menuOpen)}}
+                                  className='link'
+                                > Océanos </a>
+                            </li>
+                   
+              </ul>
             )}
 
         </div>

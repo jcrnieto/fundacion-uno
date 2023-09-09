@@ -1,3 +1,7 @@
+.container{
+    margin-bottom: 20px;
+}
+
 .slick-arrow::before {
     height: 60px;
     background: black;

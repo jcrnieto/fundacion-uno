@@ -53,7 +53,8 @@
     color: var(--font-color);
    height: 427px;
    overflow: hidden;
-   text-overflow: ellipsis; 
+   text-overflow: ellipsis;
+   margin: 10px; 
   }
 
  

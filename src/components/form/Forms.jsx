@@ -37,7 +37,7 @@ const Forms = () => {
      Aos.init({duration:2000})
   },[])
    return(
-      <div className="container-form" data-aos="flip-left" id="Contacto">
+      <div className="container-form" data-aos="flip-left" id="contact">
       <div className="row ">
         <div className="col-12 col-md-6 col-lg-3">
           <h2 className="contact-form">Contacto</h2>

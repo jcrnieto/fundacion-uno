@@ -1,131 +1,5 @@
-  /* *{
-padding: 0;
-margin:0;
-box-sizing: border-box;
-}
- .navbar {
-    display:flex;
-    align-items: center;
-    justify-content:space-between; 
-    padding: 0 2rem;
-    background-color: #9bac9d;
-    color: #eee;
-    position: relative;
-    z-index: 1000;  
-} 
 
- .log {
-    width: 80px;
-    margin-left: 40px;
-}
-
-ul.nav-links {
-  list-style: none;
-}
-
-
- .nav-links {
-   display: flex;
-   justify-content: flex-end;
-   list-style: none;
-   width: 75%;
-   z-index: 1001; 
-}
-
- .nav-links :hover{
-    color:black;
-    
-} 
-
-.nav-links li{
-    padding: 6px,12px;
-    list-style: none;
-}
-
-.mobile-menu-icon{
-    display: none;
-    
-}
-
- .quienes-somos,
-.contacto,
-.inicio{
-    text-decoration: none;
-    color:#eee;
-    font-size: 20px;
-    padding: 10px 20px;
-    margin: 0 10px;
-    cursor: pointer;
-}
-
-
-
-.link-quienes-somos{
-    text-decoration: none;
-}
-
-.buttom-inicio{
-    background: #8be695;
-    border: none;
-    color: #eee;
-   
-}
-
-.dropdown-content{
-    border-color: black;
-}
-
-
-
- @media screen and (max-width: 780px){
-   
-    .nav-links{
-        display: none;
-    } 
-
-     .nav-links-mobile {
-        display: block;
-        list-style: none;
-        background-color: #9bac9d;
-        left: 0;
-        top: 75px;
-        transition: all 0.5s ease-out;
-        width: 100%;
-        position: static;
-        z-index: auto;  
-    }
-
-    .quienes-somos,
-    .inicio,
-    .contacto {
-        color: white;
-        text-align: center;
-        padding: 32px;
-        width: 100%;
-        transition: all 0.5s ease;
-        text-decoration: none;
-    }
-
-    .mobile-menu-icon{
-        display: block;
-        position: absolute;
-        font-size: 30px;
-        color: white;
-        background-color: #9bac9d;
-        border: none;
-        outline: none;
-        top: 30px;
-        right: 35px;
-         
-     } 
-
-    .fas-times {
-        background-color: #75c780;
-    }
-}   
- */
-
- .container-navbar{
+.container-navbar{
     height: 120px;
     background: #113d0d;
     display: flex;
@@ -153,18 +27,23 @@ ul.nav-links {
  .menu-icon{
     display: none;
   }
+ 
+.list .active{
+  display: block;
+}
+
 
   
   @media (max-width: 768px){
     .container-navbar {
       position: relative;
-      background-color: #427bc9;
+      background-color: #113d0d;
     }
      
      .menu-items {
        display: none;
        position: absolute;
-       background-color: #09090a;
+       background-color: #113d0d;
        margin-top: 330px;
        width: 100%;
        z-index: 999;
@@ -177,6 +56,7 @@ ul.nav-links {
         justify-content: flex-end;
         padding: 20px;
         font-size: 40px;
+        color: aliceblue;
     } 
   
      .menu-items.open{
