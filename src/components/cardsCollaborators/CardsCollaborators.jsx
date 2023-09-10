@@ -1,4 +1,3 @@
-//import { Container, CardGroup } from 'reactstrap';
 import {date} from '../../date';
 import Card from '../cardUnit/CardUnit';
 import Aos from 'aos';
@@ -12,7 +11,7 @@ const Cards = () => {
         Aos.init({duration:2000})
      },[])
     return (
-        <div className='container-collaborators'>
+        <div className='container-collaborators' data-aos="zoom-in">
             <h1 className='title-collaborators'>Colaboradores</h1>
            <div className='card-group'>
               {

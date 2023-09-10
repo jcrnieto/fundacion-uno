@@ -1,13 +1,11 @@
 .dropdown-content{
   margin-top:51px;
-  width: 170px;
+  width: 180px;
   position:absolute;
   background: #0b918a;
   right: 15%;
   border-color: rgb(218, 196, 196);
-  /* box-shadow: 3px, 3px, 10px, 6px rgba(0,0,0,0.06); */
-  /* border: black; */
-  /* border: 2px solid rgb(134, 132, 132); */
+  box-shadow: 3px, 3px, 10px, 6px rgba(0,0,0,0.06); 
   border: 2px solid rgb(141, 137, 137);
   text-decoration: none;
   z-index: 999;
@@ -36,7 +34,9 @@
 
 @media screen and (max-width: 780px){
     .dropdown-content{
-        margin-top:40px;
-        margin-right: 10%;
+       margin-top:40px;
+       width: 100%;
+       margin-right: 0px;
+       left: 0px;
     }
 }
