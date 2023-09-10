@@ -1,17 +1,12 @@
 import {date} from '../../date';
 import Card from '../cardUnit/CardUnit';
-import Aos from 'aos';
-import "aos/dist/aos.css";
-import { useEffect } from 'react';
 import './cardsCollaborators.css';
 
 
 const Cards = () => {
-    useEffect(()=>{
-        Aos.init({duration:2000})
-     },[])
+   
     return (
-        <div className='container-collaborators' data-aos="zoom-in">
+        <div className='container-collaborators'>
             <h1 className='title-collaborators'>Colaboradores</h1>
            <div className='card-group'>
               {

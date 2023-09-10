@@ -18,17 +18,18 @@
     list-style: none;
  }
 
- .list{
+ .list-nav{
     margin-right: 30px;
     font-size: 20px;
     cursor: pointer;
+    color: aliceblue;
  }
 
  .menu-icon{
     display: none;
   }
  
-.list .active{
+.list-nav .active{
   display: block;
 }
 
@@ -63,7 +64,7 @@
       display: block;
     } 
 
-    .list{
+    .list-nav{
         margin-top: 20px;
     }
 

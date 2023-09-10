@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Activities = () => {
     return(
-    <div className="contenedor" style={{ height: "750px" }}>
+    <div className="container-activitie">
     <div style={{ 
       backgroundImage: `url(${image})`, 
       height: "100%",
@@ -14,11 +14,11 @@ const Activities = () => {
       }}>
        <h1 className='title'>Actividades de la fundacion</h1> 
       <ul className='group-list'>
-        <li className='list'>Reciclado</li>
-        <li className='list'>Acciones en escuelas</li>
-        <li className='list'>Ayuda a merenderos</li>
-        <li className='list'>Acciones en escuelas de futbol</li>
-        <li className='list'>Plantacion de árboles frutales</li>
+        <li className='list-activitie'>Reciclado</li>
+        <li className='list-activitie'>Acciones en escuelas</li>
+        <li className='list-activitie'>Ayuda a merenderos</li>
+        <li className='list-activitie'>Acciones en escuelas de futbol</li>
+        <li className='list-activitie'>Plantacion de árboles frutales</li>
       </ul>
       <Link to='/quienessomos'>
       <Button className='button-activitie' color="secondary">Conocé mas...</Button>
