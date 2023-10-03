@@ -1,0 +1,41 @@
+.donation-container{
+    height: auto;
+    background: #e3e3e3;
+}
+
+.button-whatsapp{
+    background-color: #27C08A;
+    width: 280px;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-whatsapp{
+    font-size: 40px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+.text-whatsapp{
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.container-button-whatsapp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+} 
+
+.title-donation{
+    font-size: 50px;
+    padding-top: 40px;
+}
+
+.link-contact{
+    text-decoration: none;
+    
+}

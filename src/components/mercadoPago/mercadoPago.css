@@ -1,0 +1,47 @@
+.button-mercado-pago{
+    width: 100px;
+}
+
+.text-mercado-pago{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.container-amount-donation {
+    position: relative;
+    margin-bottom: 40px;
+}
+   
+.input-donation{
+  font-family: monospace;
+  max-width: 190px;
+  outline: none;
+  border: 1px solid #dadada;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f3f7fe;
+  transition: .3s;
+  color: #3b82f6;
+}
+
+.input-donation:focus {
+    border: 1px solid #3b82f6;
+    box-shadow: 0 0 0 4px #3b83f65f
+}
+
+.button-redirect{
+    background-color: #00B1EA;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+label{
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+@media (max-width: 768px){
+   
+}

@@ -5,15 +5,12 @@ import Home from './components/home/Home';
 import Footer from './components/footer/Footer';
 import QuienesSomos from './components/quienesSomos/QuienesSomos.jsx';
 import ComponentePrueba from './components/componentePrueba/ComponentePrueba';
-//import NavbarBootstrap from './components/navBar/NavbarBootstrap';
-
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
          <NavBar /> 
-        {/* <NavbarBootstrap/> */}
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/QuienesSomos' element={<QuienesSomos />} />

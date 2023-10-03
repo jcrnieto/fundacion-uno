@@ -8,7 +8,7 @@ import Mineral from '../minerals/Minerals';
 import Ocean from '../ocean/Ocean';
 import HumanKingdom from '../humanKingdom/HumanKingdom';
 import Activities from '../activities/Activities';
-import Paypal from '../paypal/Paypal';
+import Donation from '../donation/Donation';
 
 
 
@@ -26,7 +26,7 @@ const Home = () => {
        <VegetalKingdom/>
        <Mineral/>
        <Ocean/>
-       <Paypal/>
+       <Donation/>
        <CardsCollaborators/>
        <Forms/>
     </div>

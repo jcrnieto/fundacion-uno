@@ -5,10 +5,10 @@ const DropDown = ({ menuOpen, setMenuOpen, openToggler, setOpenToggler }) => {
     
     const navigate = useNavigate();
 
-    const handleClick = () => {
-        setOpenToggler(!openToggler);
-        setMenuOpen(!menuOpen);
-    }
+    // const handleClick = () => {
+    //     setOpenToggler(!openToggler);
+    //     setMenuOpen(!menuOpen);
+    // }
 
     const handleScroll = (event, targetId) => {
         event.preventDefault();
