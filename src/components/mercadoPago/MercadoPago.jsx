@@ -16,7 +16,7 @@ const MercadoPago = () => {
                 price: amount,
                 quantity: 1
             });
-
+           
             const { id } = response.data;
             return id;
         } catch (error) {
@@ -44,6 +44,7 @@ const MercadoPago = () => {
                    onChange={(e) => setAmount(e.target.value)}
                    placeholder='coloque un monto'
                 />
+                {/* {console.log('amount',amount)} */}
             </div>
             <button onClick={handleBuy} className='button-redirect'> Ir a mercado pago </button>
 
