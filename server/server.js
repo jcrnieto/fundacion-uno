@@ -2,6 +2,9 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 const mercadopago = require("mercadopago");
+require('dotenv').config();
+const server = process.env.SERVER_PORT;
+console.log(process.env.SERVER_PORT);
 
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
@@ -43,6 +46,6 @@ app.post("/create_preference", (req, res) => {
 		});
 });
 
-app.listen(8080, ()=>{
-    console.log("the server in now running on port 3000")
+app.listen(server, ()=>{
+    console.log(`the server in now running on port ${server}`)
 })
