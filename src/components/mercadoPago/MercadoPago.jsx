@@ -11,7 +11,7 @@ const MercadoPago = () => {
 
     const createPreference = async () => {
         try {
-            const response = await axios.post("http://localhost:8080/create_preference", {
+            const response = await axios.post("/create_preference", {
                 description: "donacion",
                 price: amount,
                 quantity: 1
