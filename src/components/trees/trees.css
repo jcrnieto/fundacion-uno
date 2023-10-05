@@ -1,0 +1,41 @@
+.container-trees-buys{
+    height: auto;
+}
+
+.container-image-trees{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin-bottom: 30px; 
+}
+
+.img-trees{
+    width: 450px;
+    height: 550px;
+    object-fit: cover;
+}
+
+.title-trees-buys{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.text-trees-buys{
+    margin: 25px;
+    font-size: 30px;
+}
+
+.container-button-whatsapp{
+     margin-bottom: 20px; 
+}
+
+@media (max-width: 768px){
+    .img-trees{
+        width: 300px;
+    }
+
+    .container-image-trees{
+       flex-direction: column;
+    }
+}

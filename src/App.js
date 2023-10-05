@@ -5,16 +5,18 @@ import Home from './components/home/Home';
 import Footer from './components/footer/Footer';
 import QuienesSomos from './components/quienesSomos/QuienesSomos.jsx';
 import ComponentePrueba from './components/componentePrueba/ComponentePrueba';
+import Trees from './components/trees/Trees';
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
-         <NavBar /> 
+        <NavBar />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/QuienesSomos' element={<QuienesSomos />} />
           <Route path='/prueba' element={<ComponentePrueba />} />
+          <Route path='/arbolitos' element={<Trees />} />
         </Routes>
         <Footer />
       </div>
