@@ -3,11 +3,14 @@ import { initMercadoPago, Wallet } from '@mercadopago/sdk-react';
 import axios from 'axios';
 import './mercadoPago.css';
 
+const publicKey = process.env.REACT_APP_PUBLIC_KEY_MERCADOPAGO;
+
+
 const MercadoPago = () => {
     const [amount, setAmount] = useState(0);
     const [preferenceId, setPreferenceId] = useState(null);
 
-    initMercadoPago('TEST-69f546c4-9f5e-46b4-a8d0-26712d5be98a');
+    initMercadoPago(publicKey);
 
     const createPreference = async () => {
         try {
@@ -44,7 +47,6 @@ const MercadoPago = () => {
                    onChange={(e) => setAmount(e.target.value)}
                    placeholder='coloque un monto'
                 />
-                {/* {console.log('amount',amount)} */}
             </div>
             <button onClick={handleBuy} className='button-redirect'> Ir a mercado pago </button>
 
