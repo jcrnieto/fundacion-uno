@@ -4,14 +4,15 @@ const cors = require("cors");
 const mercadopago = require("mercadopago");
 require('dotenv').config();
 const server = process.env.SERVER_PORT;
-console.log(process.env.SERVER_PORT);
+const token = process.env.ACCESS_TOKEN
+//console.log(process.env.ACCESS_TOKEN);
 
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 app.use(cors());
 
 mercadopago.configure({
-	access_token: "APP_USR-7391305349617248-101016-dccb7be0857714362f4e5fbd2545df90-1496123517",
+	access_token: token,
 });
 
 app.get("/", function(req,res){
