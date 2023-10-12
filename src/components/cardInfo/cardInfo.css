@@ -13,6 +13,8 @@
     position: relative;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+   
   }
   
   .card:hover {
@@ -37,8 +39,7 @@
 
  
   .card__descr-wrapper {
-     
-   
+    
   }
   
   .card__title {
@@ -50,11 +51,12 @@
   }
   
   .card__descr {
-    color: var(--font-color);
-   height: 427px;
+   color: var(--font-color);
+   height: 360px;
    overflow: hidden;
    text-overflow: ellipsis;
-   margin: 10px; 
+   margin: 10px;
+   
   }
 
  

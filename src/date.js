@@ -2,10 +2,10 @@ import fotoCard1 from "./image/fotoCard1.jpg";
 import fotoCard2 from "./image/foto-cristian.JPG";
 import fotoCard3 from "./image/foto-sabina.JPG";
 
-import imgReciclado from "./image/reciclado.jpg";
-import imgPlantacion from "./image/plantacion-arboles.jpg";
-import imgMerenderos from "./image/ayuda-merenderos.jpeg";
-import imgEscuelas from "./image/escuelas.jpg";
+import imgReciclado from "./image/img-reciclados.jpg";
+import imgPlantacion from "./image/img-plantacion-arboles.jpeg";
+import imgMerenderos from "./image/img-merendero.jpg";
+import imgEscuelas from "./image/img-charlas-colegios.jpg";
 import imgEscuelaFutbol from "./image/escuelitas-futbol.jpg";
 
 const date = [
@@ -33,8 +33,8 @@ const infoCard = [
   {
     id: 1,
     image: imgMerenderos,
-    title: "Merenderos",
-    description:"Realizamos jornadas de plantación de árboles alimentarios, cítricos y nativos, enfocándonos en aquellos que dan frutos y alimentos. Acompañamos a la comunidad en cada etapa del proceso, desde la elección del lugar hasta el cuidado continuo de los árboles. ¡Únete a nosotros para cuidar el medio ambiente y fortalecer la comunidad!",
+    title: "Comederos y merenderos",
+    description:"Acompañamos a familias que gestionan comedores y merenderos para compartir alimentos con la comunidad. Actualmente, brindamos apoyo en tres ubicaciones en Barrio Zepa, Córdoba, actuando como intermediarios entre la sociedad y los comedores, invitando a donaciones de alimentos, ropa, calzado y útiles escolares. Creemos en la caridad y la unidad como valores fundamentales.",
   },
   {
     id: 2,
@@ -52,7 +52,7 @@ const infoCard = [
     id: 4,
     image: imgPlantacion,
     title: "Plantacion de arboles",
-    description:"Organizamos jornadas de plantaciones de árboles alimentarios, cítricos y nativos, centrándonos en aquellos que ofrecen frutos y alimentos. Estas jornadas constan de cuatro etapas. En primer lugar, evaluamos el lugar más adecuado para plantar realizando un recorrido y visitando a los vecinos, buscando 'guardianes' que cuiden el crecimiento del arbolito. Luego, fijamos día y horario, convocando a voluntarios que deseen colaborar en la jornada. El tercer paso es el día de la plantación, donde nos acompañan vecinos y especialmente niños, creando un hermoso momento de unidad y aprendizaje. La cuarta etapa consiste en visitar los árboles para verificar su estado y realizar acciones concretas si es necesario, como mejorar la colocación de tutores, tratar temas de plagas o regar en épocas críticas. ¡Únete a nuestras jornadas para contribuir al cuidado del medio ambiente!", 
+    description:"Organizamos jornadas de plantación de árboles alimentarios y nativos, enfocándonos en variedades que proporcionan alimentos. Estas jornadas involucran cuatro pasos: evaluación del lugar adecuado, convocatoria de voluntarios, día de la plantación con la participación de vecinos y niños, y visitas posteriores para asegurar el cuidado de los árboles. Únete a nuestras jornadas para ayudar al medio ambiente.", 
   },
   {
     id: 5,
