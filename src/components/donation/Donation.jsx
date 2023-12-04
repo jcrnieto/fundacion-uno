@@ -6,7 +6,7 @@ import {NavLink} from 'react-router-dom';
 
 const Donation = () => {
   return (
-    <div className='donation-container'>
+    <div className='donation-container' id="donation">
       <h2 className='title-donation'>Colaborá con la Fundación</h2>
       {/* <Paypal/> */}
       <MercadoPago />

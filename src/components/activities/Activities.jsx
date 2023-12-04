@@ -4,6 +4,14 @@ import { Button } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
 const Activities = () => {
+
+  const handleScroll = (event, targetId) => {
+    event.preventDefault();
+    const targetElement = document.getElementById(targetId);
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'nearest' });
+   }
+  }
     return(
     <div className="container-activitie">
     <div style={{ 
@@ -21,7 +29,7 @@ const Activities = () => {
         <li className='list-activitie'>Plantacion de árboles frutales</li>
       </ul>
       <Link to='/quienessomos'>
-      <Button className='button-activitie' color="secondary">Conocé mas...</Button>
+      <Button className='button-activitie' color="secondary" onClick={(e) => { handleScroll(e, 'activitie')}}>Conocé mas...</Button>
       </Link> 
     </div>
   </div>

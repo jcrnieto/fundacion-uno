@@ -56,8 +56,8 @@ const KnowMore = () => {
   };
 
   return (
-    <div className="container">
-      <h1 className="tile-knowmore">Actividades de la Fundacion</h1>
+    <div className="container" id="activitie">
+      <h1 className="tile-knowmore">Actividades</h1>
       <Slider {...settings}>
         {
           infoCard.map((card) => {

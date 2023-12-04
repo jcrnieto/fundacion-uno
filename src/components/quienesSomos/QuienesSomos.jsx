@@ -1,6 +1,10 @@
 import image from "../../image/imgQuienesSomos1.avif";
-import KnowMore from "../knowMore/KnowMore";
 import "./quienesSomos.css";
+import AnimalKingdom from '../animalKingdom/AnimalKingdom';
+import VegetalKingdom from '../vegetalKingdom/VegetalKingdom';
+import Mineral from '../minerals/Minerals';
+import Ocean from '../ocean/Ocean';
+import HumanKingdom from '../humanKingdom/HumanKingdom';
 
 const QuienesSomos = () => {
   return (
@@ -30,7 +34,11 @@ const QuienesSomos = () => {
       </div>
     </div>
     <div>
-      <KnowMore/>
+      <HumanKingdom/> 
+       <AnimalKingdom />
+       <VegetalKingdom/>
+       <Mineral/>
+       <Ocean/>
     </div>
     </>
   );

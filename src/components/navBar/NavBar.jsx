@@ -50,13 +50,15 @@ const NavBar = () => {
         <li 
            className={`list-nav ${openToggler ? "active" : ""}`}
             onMouseEnter={() => setOpenToggler(true)}
+            onClick={(e) => { handleScroll(e, 'donation');setMenuOpen(!menuOpen)}}
           > 
-           <DropDown 
+           {/* <DropDown 
              openToggler={openToggler} 
              setOpenToggler={setOpenToggler}
              menuOpen={menuOpen}
              setMenuOpen={setMenuOpen}
-             />
+             /> */}
+             Colaboraciones
          </li>
       </ul>
 
