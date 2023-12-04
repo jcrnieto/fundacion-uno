@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { AiOutlineMenu } from 'react-icons/ai';
 import { GrClose } from 'react-icons/gr';
 import { useNavigate } from "react-router-dom";
-import DropDown from '../dropdown/DropDown';
+//import DropDown from '../dropdown/DropDown';
 
 
 const NavBar = () => {
@@ -20,6 +20,10 @@ const NavBar = () => {
     if (targetElement) {
       targetElement.scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'nearest' });
       setMenuOpen(false);
+    }
+
+    if (targetId === 'donation'  && window.location.pathname !== '/') {
+      navigate('/');
     }
 
     if (targetId === 'contact'  && window.location.pathname !== '/') {
