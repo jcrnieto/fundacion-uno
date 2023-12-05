@@ -2,7 +2,7 @@ import MercadoPago from '../mercadoPago/MercadoPago';
 //import Paypal from '../paypal/Paypal';
 import './donation.css';
 import { BsWhatsapp } from 'react-icons/bs';
-import {NavLink} from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Donation = () => {
   return (
@@ -23,8 +23,16 @@ const Donation = () => {
         <div className='container-info-trees'>
           <h3 className='info-trees'>Para mas informacion</h3>
           <NavLink to='/arbolitos'>
-          <button className='button-trees'>Hacé click acá</button>
+            <button className='button-trees'>Hacé click acá</button>
           </NavLink>
+        </div>
+        <div className='container-radio'>
+          <h3>Tambien podés escuchar nuestra radio</h3>
+          <a href="http://emisora.brotherservicios.com/8340/stream" target="_blank">
+            <button className='button-radio'>
+                Hacé click acá
+            </button>
+          </a>
         </div>
       </div>
     </div>

@@ -70,6 +70,20 @@
     background-color: #eb4242;
 }
 
+.container-radio{
+    margin-top: 40px;
+    background: #27C08A;
+}
+
+.button-radio{
+    margin-left: 20px;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #eb4242;
+}
+
 @media (max-width: 768px){
     .title-donation{
         margin-left: 20px;
