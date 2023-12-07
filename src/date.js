@@ -2,11 +2,11 @@ import fotoCard1 from "./image/foto-martin.jpg";
 import fotoCard2 from "./image/foto-cristian.JPG";
 import fotoCard3 from "./image/foto-sabina.JPG";
 
-import imgReciclado from "./image/img-reciclados.jpg";
+import imgReciclado from "./image/img-reciclado.jpg";
 import imgPlantacion from "./image/img-plantacion-arboles.jpeg";
 import imgMerenderos from "./image/img-merendero.jpg";
 import imgEscuelas from "./image/img-charlas-colegios.jpg";
-import imgEscuelaFutbol from "./image/escuelitas-futbol.jpg";
+import imgEscuelaFutbol from "./image/img-escuelita-futbol.jpg";
 
 const date = [
   {
