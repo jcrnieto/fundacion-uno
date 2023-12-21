@@ -5,7 +5,6 @@ import { useState } from 'react';
 import { AiOutlineMenu } from 'react-icons/ai';
 import { GrClose } from 'react-icons/gr';
 import { useNavigate } from "react-router-dom";
-//import DropDown from '../dropdown/DropDown';
 
 
 const NavBar = () => {
