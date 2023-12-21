@@ -1,4 +1,4 @@
-import logo from "../../image/logo-fundacion.png";
+import logo from "../../image/logo-app.png";
 import {NavLink} from 'react-router-dom';
 import { FaInstagram } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";

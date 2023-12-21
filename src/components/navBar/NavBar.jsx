@@ -1,6 +1,6 @@
 import './navBar.css';
 import { NavLink } from 'react-router-dom';
-import logo from '../../image/logo-fundacion.png';
+import logo from '../../image/logo-app.png';
 import { useState } from 'react';
 import { AiOutlineMenu } from 'react-icons/ai';
 import { GrClose } from 'react-icons/gr';
